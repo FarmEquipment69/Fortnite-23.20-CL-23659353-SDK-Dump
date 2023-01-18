@@ -1,0 +1,20 @@
+// ScriptStruct /Script/AudioMotorSim.AudioMotorSimInputContext
+// Size: 0x2c
+struct FAudioMotorSimInputContext
+{
+	float DeltaTime; // 0x0 (0x4)
+	float Speed; // 0x4 (0x4)
+	float ForwardSpeed; // 0x8 (0x4)
+	float SideSpeed; // 0xc (0x4)
+	float UpSpeed; // 0x10 (0x4)
+	float Throttle; // 0x14 (0x4)
+	float Brake; // 0x18 (0x4)
+	float SurfaceFrictionModifier; // 0x1c (0x4)
+	float MotorFrictionModifier; // 0x20 (0x4)
+	float Boost; // 0x24 (0x4)
+	bool bDriving; // 0x28 (0x1)
+	bool bGrounded; // 0x29 (0x1)
+	bool bCanShift; // 0x2a (0x1)
+	bool bClutchEngaged; // 0x2b (0x1)
+};
+

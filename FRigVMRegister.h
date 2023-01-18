@@ -1,0 +1,21 @@
+// ScriptStruct /Script/RigVM.RigVMRegister
+// Size: 0x20
+struct FRigVMRegister
+{
+	enum ERigVMRegisterType Type; // 0x0 (0x1)
+	unsigned char unreflected_1[0x3]; // 0x1 (0x3) 
+	uint32_t ByteIndex; // 0x4 (0x4)
+	uint16_t ElementSize; // 0x8 (0x2)
+	uint16_t ElementCount; // 0xa (0x2)
+	uint16_t SliceCount; // 0xc (0x2)
+	unsigned char AlignmentBytes; // 0xe (0x1)
+	unsigned char unreflected_f[0x1]; // 0xf (0x1) 
+	uint16_t TrailingBytes; // 0x10 (0x2)
+	unsigned char unreflected_12[0x2]; // 0x12 (0x2) 
+	struct FName Name; // 0x14 (0x4)
+	int ScriptStructIndex; // 0x18 (0x4)
+	bool bIsArray; // 0x1c (0x1)
+	bool bIsDynamic; // 0x1d (0x1)
+	unsigned char padding_1e[0x2]; // 0x1e (0x2)
+};
+

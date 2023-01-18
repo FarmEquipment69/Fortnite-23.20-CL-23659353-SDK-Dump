@@ -1,0 +1,13 @@
+// UserDefinedStruct /Game/ArtTools/HoudiniInstanceImporter/HoudiniInstanceDataLayout.HoudiniInstanceDataLayout
+// Size: 0x1c
+struct FHoudiniInstanceDataLayout
+{
+	float Px4F5C0CE7F4E57E0634EEBA7986A38B75B; // 0x0 (0x4)
+	float Py7462CEB644FCF8818190E0DA7A4233236; // 0x4 (0x4)
+	float Pz8488530224541EBF7D43F2F99AE2CCEAF; // 0x8 (0x4)
+	float Nx1851E5EF044A718D85E72395AA9D96475D; // 0xc (0x4)
+	float Ny2285D94369412DF832716FAD9638F05274; // 0x10 (0x4)
+	float Nz23267E08D5410B2BAA799B67975DE79784; // 0x14 (0x4)
+	float pscale24C1C793994E739F1A41356ABC35528C18; // 0x18 (0x4)
+};
+

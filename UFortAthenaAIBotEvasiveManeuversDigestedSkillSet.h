@@ -1,0 +1,36 @@
+// Class /Script/FortniteAI.FortAthenaAIBotEvasiveManeuversDigestedSkillSet
+// Size: 0x148
+class UFortAthenaAIBotEvasiveManeuversDigestedSkillSet : public UFortAthenaAIBotDigestedSkillSet
+{
+	unsigned char unreflected_30[0x8]; // 0x30 (0x8) 
+	struct FDigestedEvasiveManeuverSkillSettings DefaultEvasiveManeuverSkillSettings; // 0x38 (0x58)
+	struct TArray<struct FDigestedEvasiveManeuverSkillSettingsSpecialization> EvasiveManeuverSkillSettingsSpecializations; // 0x90 (0x10)
+	float JetpackStrafeDelay; // 0xa0 (0x4)
+	float JetpackStrafeRandomDeviationDelay; // 0xa4 (0x4)
+	float JetpackStrafeOverlayWeight; // 0xa8 (0x4)
+	float JetpackStrafeDistanceMax; // 0xac (0x4)
+	float JetpackStrafeDistanceMin; // 0xb0 (0x4)
+	float JetpackStrafeActivationTime; // 0xb4 (0x4)
+	float JetpackStrafeActivationTimeRandomDeviation; // 0xb8 (0x4)
+	float JetpackStrafeTime; // 0xbc (0x4)
+	float JetpackStrafeTimeRandomDeviation; // 0xc0 (0x4)
+	float DodgeMaxDistanceSquared; // 0xc4 (0x4)
+	float CrouchMaxDistanceSquared; // 0xc8 (0x4)
+	float JumpMaxDistanceSquared; // 0xcc (0x4)
+	float JetpackStrafeMaxDistanceSquared; // 0xd0 (0x4)
+	float AvoidProjectilesReactionDistanceSqr; // 0xd4 (0x4)
+	float AvoidProjectilesReactionTimeMin; // 0xd8 (0x4)
+	float AvoidProjectilesReactionTimeMax; // 0xdc (0x4)
+	float AvoidProjectilesEvasiveDistanceMin; // 0xe0 (0x4)
+	float AvoidProjectilesEvasiveDistanceMax; // 0xe4 (0x4)
+	float AvoidPhysicsObjectsReactionDistanceMin; // 0xe8 (0x4)
+	float AvoidPhysicsObjectsReactionDistanceMax; // 0xec (0x4)
+	float AvoidPhysicsObjectsSpeedMin; // 0xf0 (0x4)
+	float AvoidPhysicsObjectsSpeedMax; // 0xf4 (0x4)
+	struct FGameplayTagQuery CanUseEvasiveManeuversTagQuery; // 0xf8 (0x48)
+	bool bCanCrouchInUrgentMovement; // 0x140 (0x1)
+	bool bCanDodgeInUrgentMovement; // 0x141 (0x1)
+	bool bCanJumpInUrgentMovement; // 0x142 (0x1)
+	unsigned char padding_143[0x5]; // 0x143 (0x5)
+};
+

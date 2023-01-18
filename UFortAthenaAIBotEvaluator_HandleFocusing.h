@@ -1,0 +1,36 @@
+// Class /Script/FortniteAI.FortAthenaAIBotEvaluator_HandleFocusing
+// Size: 0x130
+class UFortAthenaAIBotEvaluator_HandleFocusing : public UFortAthenaAIBotEvaluator
+{
+	struct FName TargetActorName; // 0x88 (0x4)
+	struct FName InteractActorName; // 0x8c (0x4)
+	struct FName TargetLocationName; // 0x90 (0x4)
+	struct FName FocusActorName; // 0x94 (0x4)
+	struct FName FocalPointName; // 0x98 (0x4)
+	struct FName WeaponFireName; // 0x9c (0x4)
+	struct FName RangeAttackIsReadyToFireName; // 0xa0 (0x4)
+	struct FName WeaponTriggerMeleeName; // 0xa4 (0x4)
+	struct FName LastKnownPositionName; // 0xa8 (0x4)
+	struct FName TacticalSprintExecutionStatusName; // 0xac (0x4)
+	unsigned char unreflected_b0[0x14]; // 0xb0 (0x14) 
+	enum EFocusingBehavior FocusingBehavior; // 0xc4 (0x1)
+	enum EFocusingBehavior NoRangedWeaponFocusBehavior; // 0xc5 (0x1)
+	bool bPrioritizeThreatOverCurrentTarget; // 0xc6 (0x1)
+	bool bUseTargetActorKeyAsFocusTarget; // 0xc7 (0x1)
+	bool bFocusOnTargetLocation; // 0xc8 (0x1)
+	unsigned char unreflected_c9[0x3]; // 0xc9 (0x3) 
+	float AmbushMaxLKPLookAtAngleDegree; // 0xcc (0x4)
+	bool bStopFocusingWhenMoving; // 0xd0 (0x1)
+	unsigned char unreflected_d1[0x3]; // 0xd1 (0x3) 
+	float ResumeFocusingWhenMovingDist; // 0xd4 (0x4)
+	float StopFocusingWhenMovingDist; // 0xd8 (0x4)
+	bool bResumeFocusWhileSliding; // 0xdc (0x1)
+	unsigned char unreflected_dd[0x3]; // 0xdd (0x3) 
+	class UFortAthenaAIBotAimingDigestedSkillSet* CacheAimingDigestedSkillSet; // 0xe0 (0x8)
+	class UFortAthenaAIBotMovementDigestedSkillSet* CacheMovementDigestedSkillSet; // 0xe8 (0x8)
+	class AActor* LastTargetedThreat; // 0xf0 (0x8)
+	unsigned char unreflected_f8[0x8]; // 0xf8 (0x8) 
+	class AActor* FocusActor; // 0x100 (0x8)
+	unsigned char padding_108[0x28]; // 0x108 (0x28)
+};
+

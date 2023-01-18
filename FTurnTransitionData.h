@@ -1,0 +1,37 @@
+// ScriptStruct /Script/FortniteGame.TurnTransitionData
+// Size: 0x98
+struct FTurnTransitionData
+{
+	enum FTurnTransitionCondition ApplyConstraint; // 0x0 (0x1)
+	bool bUseMontageForTurnTransition; // 0x1 (0x1)
+	unsigned char unreflected_2[0x6]; // 0x2 (0x6) 
+	class UAnimMontage* MontageToPlay; // 0x8 (0x8)
+	struct FName MontageSectionName; // 0x10 (0x4)
+	float MinYawAngle; // 0x14 (0x4)
+	float MaxYawAngle; // 0x18 (0x4)
+	bool bUseCurveForRotation; // 0x1c (0x1)
+	unsigned char unreflected_1d[0x3]; // 0x1d (0x3) 
+	struct FName CurveNameForRotation; // 0x20 (0x4)
+	float TurnRate; // 0x24 (0x4)
+	float PlayRate; // 0x28 (0x4)
+	unsigned char unreflected_2c[0x4]; // 0x2c (0x4) 
+	struct FGameplayTagContainer RequiredGameplayTags; // 0x30 (0x20)
+	struct FGameplayTagContainer GameplayTagsToRemoveOnFinished; // 0x50 (0x20)
+	int PriorityLevel; // 0x70 (0x4)
+	struct FTurnFloatRange* SpeedConstraintRange; // 0x74 (0x8)
+	bool bEnableSpeedConstraint; // 0x7c (0x1)
+	bool bSkipTransitionInCrowd; // 0x7d (0x1)
+	bool bDisablePhysicsRotation; // 0x7e (0x1)
+	unsigned char unreflected_7f[0x1]; // 0x7f (0x1) 
+	float FacingPrecision; // 0x80 (0x4)
+	bool bMaintainRotationOnFacing; // 0x84 (0x1)
+	bool bLockBehaviorTree; // 0x85 (0x1)
+	bool bUnlockBehaviorTreeOnFacing; // 0x86 (0x1)
+	bool bScaleRotationToMatchDesired; // 0x87 (0x1)
+	bool bUpdateRotationToMatchDesired; // 0x88 (0x1)
+	unsigned char unreflected_89[0x3]; // 0x89 (0x3) 
+	float MinRotationScaleToMatchDesired; // 0x8c (0x4)
+	float MaxRotationScaleToMatchDesired; // 0x90 (0x4)
+	float MaxUpdateRotationAngle; // 0x94 (0x4)
+};
+

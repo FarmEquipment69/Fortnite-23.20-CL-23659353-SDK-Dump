@@ -1,0 +1,35 @@
+// Class /Script/FortniteAI.FortQueryTest_BuildingCriteria
+// Size: 0x8b8
+class UFortQueryTest_BuildingCriteria : public UFortQueryTest_GoalBase
+{
+	struct FAIDataProviderFloatValue ScoreForGroundSupportedFloor; // 0x268 (0x38)
+	struct FAIDataProviderFloatValue ScoreForBeingGroundSupported; // 0x2a0 (0x38)
+	struct FAIDataProviderFloatValue ScoreForTraps; // 0x2d8 (0x38)
+	struct FAIDataProviderFloatValue ScoreForWalls; // 0x310 (0x38)
+	struct FAIDataProviderFloatValue ScoreForNavigableOpening; // 0x348 (0x38)
+	struct FFortAIAssignmentIdentifier RootAssignmentID; // 0x380 (0x30)
+	struct FAIDataProviderBoolValue bPreferCloserToRootAssignment; // 0x3b0 (0x38)
+	struct FAIDataProviderFloatValue ScoreForDistanceFromClosestRootAssignmentGoal; // 0x3e8 (0x38)
+	struct FAIDataProviderFloatValue MinDistanceForDistanceScoring; // 0x420 (0x38)
+	struct FAIDataProviderFloatValue MaxDistanceForDistanceScoring; // 0x458 (0x38)
+	struct FAIDataProviderFloatValue MaxHealthScore; // 0x490 (0x38)
+	struct FAIDataProviderBoolValue bPreferHigherHealth; // 0x4c8 (0x38)
+	struct FAIDataProviderFloatValue ClampMaxHealthValue; // 0x500 (0x38)
+	struct FAIDataProviderFloatValue ClampMinHealthValue; // 0x538 (0x38)
+	struct FAIDataProviderBoolValue bPreferHigherHealthPercentage; // 0x570 (0x38)
+	struct FAIDataProviderFloatValue MaxHealthPercentageScore; // 0x5a8 (0x38)
+	struct FAIDataProviderBoolValue bWantsBuildingRepairableByOwner; // 0x5e0 (0x38)
+	struct FAIDataProviderFloatValue RepairableBuildingScore; // 0x618 (0x38)
+	struct FAIDataProviderFloatValue NotRepairableBuildingScore; // 0x650 (0x38)
+	struct FAIDataProviderFloatValue NeedsRepairBuildingScore; // 0x688 (0x38)
+	struct FAIDataProviderFloatValue DoesntNeedsRepairBuildingScore; // 0x6c0 (0x38)
+	struct FAIDataProviderBoolValue bWantsDamagedByFriendly; // 0x6f8 (0x38)
+	struct FAIDataProviderFloatValue DamagedByFriendlyMaxLifespan; // 0x730 (0x38)
+	struct FAIDataProviderFloatValue DamagedByFriendlyMinDamage; // 0x768 (0x38)
+	struct FAIDataProviderFloatValue DamagedByFriendlyScore; // 0x7a0 (0x38)
+	struct FAIDataProviderBoolValue bWantsDamagedByEnemy; // 0x7d8 (0x38)
+	struct FAIDataProviderFloatValue DamagedByEnemyMaxLifespan; // 0x810 (0x38)
+	struct FAIDataProviderFloatValue DamagedByEnemyMinDamage; // 0x848 (0x38)
+	struct FAIDataProviderFloatValue DamagedByEnemyScore; // 0x880 (0x38)
+};
+

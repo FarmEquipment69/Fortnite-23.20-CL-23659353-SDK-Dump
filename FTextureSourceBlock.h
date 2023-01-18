@@ -1,0 +1,12 @@
+// ScriptStruct /Script/Engine.TextureSourceBlock
+// Size: 0x18
+struct FTextureSourceBlock
+{
+	int BlockX; // 0x0 (0x4)
+	int BlockY; // 0x4 (0x4)
+	int SizeX; // 0x8 (0x4)
+	int SizeY; // 0xc (0x4)
+	int NumSlices; // 0x10 (0x4)
+	int NumMips; // 0x14 (0x4)
+};
+

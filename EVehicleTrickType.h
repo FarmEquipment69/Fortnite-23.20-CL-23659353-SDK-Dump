@@ -1,0 +1,30 @@
+// Enum /Script/FortniteGame.EVehicleTrickType
+enum class EVehicleTrickType : uint8_t
+{
+  None = 0,
+  RollIncrement = 1,
+  ReverseRollIncrement = 2,
+  YawIncrement = 3,
+  ReverseYawIncrement = 4,
+  PitchIncrement = 5,
+  ReversePitchIncrement = 6,
+  HeightIncrement = 7,
+  DistanceIncrement = 8,
+  AirTimeIncrement = 9,
+  ShoppingCart_Flying = 10,
+  ShoppingCart_Stooping = 11,
+  StartedLanding = 12,
+  FailedLanding = 13,
+  Cancelled = 14,
+  StuckLanding = 15,
+  GenericTrick1 = 16,
+  GenericTrick2 = 17,
+  GenericTrick3 = 18,
+  GenericTrick4 = 19,
+  IncrementGenericTrick1 = 20,
+  IncrementGenericTrick2 = 21,
+  IncrementGenericTrick3 = 22,
+  IncrementGenericTrick4 = 23,
+  Count = 24,
+  EVehicleTrickType_MAX = 25
+};

@@ -1,0 +1,10 @@
+// ScriptStruct /Script/CoreUObject.Int32Vector4
+// Size: 0x10
+struct FInt32Vector4
+{
+	int X; // 0x0 (0x4)
+	int Y; // 0x4 (0x4)
+	int Z; // 0x8 (0x4)
+	int W; // 0xc (0x4)
+};
+

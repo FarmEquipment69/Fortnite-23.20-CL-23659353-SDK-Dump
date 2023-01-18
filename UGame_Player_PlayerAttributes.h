@@ -1,0 +1,20 @@
+// VerseClass /VerseFortniteInternal/_Verse/VNI/VerseFortniteInternal.Game_Player_PlayerAttributes
+// Size: 0x28
+class UGame_Player_PlayerAttributes : public UObject
+{
+
+	/* Functions */
+
+	// Function /VerseFortniteInternal/_Verse/VNI/VerseFortniteInternal.Game_Player_PlayerAttributes._L_2fFortnite_2ecom_2fGame_2fPlayer_2fPlayerAttributes_N_RModifyNumericAttribute_L_Nplayer_M_NPlayerAttribute_M_NPlayerAttributeOperation_M_Nfloat_R (Underlying native function: _L_2fFortnite_2ecom_2fGame_2fPlayer_2fPlayerAttributes_N_RModifyNumericAttribute_L_Nplayer_M_NPlayerAttribute_M_NPlayerAttributeOperation_M_Nfloat_R 0x707f628)
+	static void L2fFortnite2ecom2fGame2fPlayer2fPlayerAttributesNRModifyNumericAttributeLNplayerMNPlayerAttributeMNPlayerAttributeOperationMNfloatR(struct Ftuple_Lplayer_MPlayerAttribute_MPlayerAttributeOperation_Mfloat_R& verse0xB2CDDD72Argument); // (Final | Native | Static | Public | BlueprintCallable)
+
+	// Function /VerseFortniteInternal/_Verse/VNI/VerseFortniteInternal.Game_Player_PlayerAttributes._L_2fFortnite_2ecom_2fGame_2fPlayer_2fPlayerAttributes_N_RGetNumericAttributeValue_L_Nplayer_M_NPlayerAttribute_R (Underlying native function: _L_2fFortnite_2ecom_2fGame_2fPlayer_2fPlayerAttributes_N_RGetNumericAttributeValue_L_Nplayer_M_NPlayerAttribute_R 0x707f620)
+	static double L2fFortnite2ecom2fGame2fPlayer2fPlayerAttributesNRGetNumericAttributeValueLNplayerMNPlayerAttributeR(struct Ftuple_Lplayer_MPlayerAttribute_R& verse0xB2CDDD72Argument); // (Final | Native | Static | Public | HasOutParms | BlueprintCallable)
+
+	// Function /VerseFortniteInternal/_Verse/VNI/VerseFortniteInternal.Game_Player_PlayerAttributes._L_2fFortnite_2ecom_2fGame_2fPlayer_2fPlayerAttributes_N_RAddToNumericAttribute_L_Nplayer_M_NPlayerAttribute_M_Nfloat_R (Underlying native function: _L_2fFortnite_2ecom_2fGame_2fPlayer_2fPlayerAttributes_N_RAddToNumericAttribute_L_Nplayer_M_NPlayerAttribute_M_Nfloat_R 0x707f618)
+	static void L2fFortnite2ecom2fGame2fPlayer2fPlayerAttributesNRAddToNumericAttributeLNplayerMNPlayerAttributeMNfloatR(struct Ftuple_Lplayer_MPlayerAttribute_Mfloat_R& verse0xB2CDDD72Argument); // (Final | Native | Static | Public | BlueprintCallable)
+
+	// Function /VerseFortniteInternal/_Verse/VNI/VerseFortniteInternal.Game_Player_PlayerAttributes.$InitCDO (Has no native function)
+	void $InitCDO(); // ()
+};
+

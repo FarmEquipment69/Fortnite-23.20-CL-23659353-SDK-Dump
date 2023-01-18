@@ -1,0 +1,11 @@
+// ScriptStruct /Script/FortniteUI.Card
+// Size: 0x18
+struct FCard
+{
+	int QuantityReceived; // 0x0 (0x4)
+	unsigned char unreflected_4[0x4]; // 0x4 (0x4) 
+	class UFortItem* Item; // 0x8 (0x8)
+	enum EPauseType PauseType; // 0x10 (0x1)
+	unsigned char padding_11[0x7]; // 0x11 (0x7)
+};
+

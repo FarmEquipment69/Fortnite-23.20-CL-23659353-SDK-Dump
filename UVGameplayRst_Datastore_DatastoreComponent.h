@@ -1,0 +1,20 @@
+// VerseClass /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Datastore_DatastoreComponent
+// Size: 0x28
+class UVGameplayRst_Datastore_DatastoreComponent : public UObject
+{
+
+	/* Functions */
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Datastore_DatastoreComponent._L_2fVerse_2eorg_2fVGameplayRst_2fDatastore_2fDatastoreComponent_N_RSetDatastoreValueInt_L_Nplayer__component_M_N_Kchar_M_Nint_R (Underlying native function: _L_2fVerse_2eorg_2fVGameplayRst_2fDatastore_2fDatastoreComponent_N_RSetDatastoreValueInt_L_Nplayer__component_M_N_Kchar_M_Nint_R 0x709dc90)
+	static void L2fVerse2eorg2fVGameplayRst2fDatastore2fDatastoreComponentNRSetDatastoreValueIntLNplayercomponentMNKcharMNintR(struct Ftuple_Lplayer__component_M_Kchar_Mint_R& verse0xB2CDDD72Argument); // (Final | Native | Static | Public | BlueprintCallable)
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Datastore_DatastoreComponent._L_2fVerse_2eorg_2fVGameplayRst_2fDatastore_2fDatastoreComponent_N_RSetDatastoreValue_L_Nplayer__component_M_N_Kchar_M_N_Kchar_R (Underlying native function: _L_2fVerse_2eorg_2fVGameplayRst_2fDatastore_2fDatastoreComponent_N_RSetDatastoreValue_L_Nplayer__component_M_N_Kchar_M_N_Kchar_R 0x709dc98)
+	static void L2fVerse2eorg2fVGameplayRst2fDatastore2fDatastoreComponentNRSetDatastoreValueLNplayercomponentMNKcharMNKcharR(struct Ftuple_Lplayer__component_M_Kchar_M_Kchar_R& verse0xB2CDDD72Argument); // (Final | Native | Static | Public | BlueprintCallable)
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Datastore_DatastoreComponent._L_2fVerse_2eorg_2fVGameplayRst_2fDatastore_2fDatastoreComponent_N_RClearAllDatastoreValues_L_Nplayer__component_R (Underlying native function: _L_2fVerse_2eorg_2fVGameplayRst_2fDatastore_2fDatastoreComponent_N_RClearAllDatastoreValues_L_Nplayer__component_R 0x709dc88)
+	static void L2fVerse2eorg2fVGameplayRst2fDatastore2fDatastoreComponentNRClearAllDatastoreValuesLNplayercomponentR(class USimulation_player_component*& verse0xB2CDDD72Argument); // (Final | Native | Static | Public | BlueprintCallable)
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Datastore_DatastoreComponent.$InitCDO (Has no native function)
+	void $InitCDO(); // ()
+};
+

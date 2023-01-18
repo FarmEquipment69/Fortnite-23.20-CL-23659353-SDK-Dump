@@ -1,0 +1,37 @@
+// ScriptStruct /Script/FortniteGame.VehicleSpringInfo
+// Size: 0x290
+struct FVehicleSpringInfo
+{
+	struct FName SpringStart; // 0x0 (0x4)
+	unsigned char unreflected_4[0x4]; // 0x4 (0x4) 
+	struct FVector SpringStartLocalOffset; // 0x8 (0x18)
+	struct FName ForceApplicationPoint; // 0x20 (0x4)
+	float SpringLength; // 0x24 (0x4)
+	float SpringStiff; // 0x28 (0x4)
+	float SpringDamp; // 0x2c (0x4)
+	float SpringRadius; // 0x30 (0x4)
+	float MaxAccelChange; // 0x34 (0x4)
+	int8_t SeatSocketIndex; // 0x38 (0x1)
+	unsigned char bIsLookAhead; // 0x39 (0x1)
+	unsigned char bNormalToGroundTriangle; // 0x39 (0x1)
+	unsigned char bForceAlongSpringGroundNormal; // 0x39 (0x1)
+	unsigned char unreflected_3a[0x2]; // 0x3a (0x2) 
+	float LookAheadMinSpeed; // 0x3c (0x4)
+	float LookAheadMaxSpeed; // 0x40 (0x4)
+	float LookAheadMinStiff; // 0x44 (0x4)
+	float LookAheadMaxStiff; // 0x48 (0x4)
+	unsigned char unreflected_4c[0x4]; // 0x4c (0x4) 
+	struct FTransform LocalStartTM; // 0x50 (0x60)
+	struct FTransform LocalApplyTM; // 0xb0 (0x60)
+	struct FHitResult Hit; // 0x110 (0xe0)
+	struct FPlane GroundPlane; // 0x1f0 (0x20)
+	float SprungMass; // 0x210 (0x4)
+	bool bEnabled; // 0x214 (0x1)
+	unsigned char unreflected_215[0x3]; // 0x215 (0x3) 
+	struct FVector Start; // 0x218 (0x18)
+	struct FVector End; // 0x230 (0x18)
+	struct FVector RayDir; // 0x248 (0x18)
+	struct FVector ForcePt; // 0x260 (0x18)
+	struct FVector ForceDir; // 0x278 (0x18)
+};
+

@@ -1,0 +1,37 @@
+// ScriptStruct /Game/Characters/Player/AnimationBlueprints/LinkedAnimGraphs/Player_DBNOCarried_AnimBP.Player_DBNOCarried_AnimBP_C.AnimBlueprintGeneratedMutableData
+// Size: 0x4a
+struct FAnimBlueprintGeneratedMutableData : FAnimBlueprintMutableData
+{
+	unsigned char unreflected_1[0x3]; // 0x1 (0x3) 
+	float FloatProperty; // 0x4 (0x4)
+	float FloatProperty0; // 0x8 (0x4)
+	float FloatProperty1; // 0xc (0x4)
+	bool BoolProperty2; // 0x10 (0x1)
+	unsigned char unreflected_11[0x3]; // 0x11 (0x3) 
+	float FloatProperty3; // 0x14 (0x4)
+	float FloatProperty4; // 0x18 (0x4)
+	bool BoolProperty5; // 0x1c (0x1)
+	bool BoolProperty6; // 0x1d (0x1)
+	unsigned char unreflected_1e[0x2]; // 0x1e (0x2) 
+	float FloatProperty7; // 0x20 (0x4)
+	bool BoolProperty8; // 0x24 (0x1)
+	unsigned char unreflected_25[0x3]; // 0x25 (0x3) 
+	float FloatProperty9; // 0x28 (0x4)
+	bool BoolProperty10; // 0x2c (0x1)
+	unsigned char unreflected_2d[0x3]; // 0x2d (0x3) 
+	float FloatProperty11; // 0x30 (0x4)
+	bool BoolProperty12; // 0x34 (0x1)
+	bool BoolProperty13; // 0x35 (0x1)
+	bool BoolProperty14; // 0x36 (0x1)
+	unsigned char unreflected_37[0x1]; // 0x37 (0x1) 
+	float FloatProperty15; // 0x38 (0x4)
+	bool BoolProperty16; // 0x3c (0x1)
+	bool BoolProperty17; // 0x3d (0x1)
+	bool BoolProperty18; // 0x3e (0x1)
+	unsigned char unreflected_3f[0x1]; // 0x3f (0x1) 
+	float FloatProperty19; // 0x40 (0x4)
+	float FloatProperty20; // 0x44 (0x4)
+	bool BoolProperty21; // 0x48 (0x1)
+	bool BoolProperty22; // 0x49 (0x1)
+};
+

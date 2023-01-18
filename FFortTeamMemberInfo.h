@@ -1,0 +1,35 @@
+// ScriptStruct /Script/FortniteGame.FortTeamMemberInfo
+// Size: 0x250
+struct FFortTeamMemberInfo
+{
+	struct FUniqueNetIdRepl MemberUniqueId; // 0x0 (0x30)
+	struct FUniqueNetIdRepl PartyLeaderUniqueId; // 0x30 (0x30)
+	struct FUniqueNetIdRepl ConsoleUniqueId; // 0x60 (0x30)
+	struct FString Platform; // 0x90 (0x10)
+	struct FText PlayerName; // 0xa0 (0x18)
+	bool bPartyLeader; // 0xb8 (0x1)
+	bool bIsInZone; // 0xb9 (0x1)
+	bool bHasBoostXp; // 0xba (0x1)
+	bool bHasRestXp; // 0xbb (0x1)
+	unsigned char unreflected_bc[0x4]; // 0xbc (0x4) 
+	struct FString BannerIconId; // 0xc0 (0x10)
+	struct FString BannerColorId; // 0xd0 (0x10)
+	bool bBattlePassPurchased; // 0xe0 (0x1)
+	unsigned char unreflected_e1[0x3]; // 0xe1 (0x3) 
+	int BattlePassLevel; // 0xe4 (0x4)
+	int BattlePassSelfXpBoost; // 0xe8 (0x4)
+	int BattlePassFriendXpBoost; // 0xec (0x4)
+	int NumPlayersInParty; // 0xf0 (0x4)
+	int PlayerIndex; // 0xf4 (0x4)
+	unsigned char TeamAffiliation; // 0xf8 (0x1)
+	unsigned char unreflected_f9[0x7]; // 0xf9 (0x7) 
+	struct FText HeroClass; // 0x100 (0x18)
+	struct FText HeroLevel; // 0x118 (0x18)
+	int HeroXP; // 0x130 (0x4)
+	unsigned char unreflected_134[0x4]; // 0x134 (0x4) 
+	class UFortItem* HeroItem; // 0x138 (0x8)
+	struct TArray<class UFortItem*> SelectedGadgetItems; // 0x140 (0x10)
+	struct FSlateBrush HeroIcon; // 0x150 (0xc0)
+	struct FFortHomeBaseInfo HomeBaseInfo; // 0x210 (0x40)
+};
+

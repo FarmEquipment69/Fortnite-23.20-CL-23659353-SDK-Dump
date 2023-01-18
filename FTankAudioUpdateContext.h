@@ -1,0 +1,35 @@
+// ScriptStruct /Script/TankRuntime.TankAudioUpdateContext
+// Size: 0xb8
+struct FTankAudioUpdateContext
+{
+	bool bIsAwake; // 0x0 (0x1)
+	unsigned char unreflected_1[0x3]; // 0x1 (0x3) 
+	float SpeedParamValue; // 0x4 (0x4)
+	float LeftTrackPower; // 0x8 (0x4)
+	float RightTrackPower; // 0xc (0x4)
+	float TurningParamValue; // 0x10 (0x4)
+	int CurrentGear; // 0x14 (0x4)
+	float AccelSpeedThreshold; // 0x18 (0x4)
+	float LastGearChangeTime; // 0x1c (0x4)
+	float AccelWaitTime; // 0x20 (0x4)
+	bool bTurningRight; // 0x24 (0x1)
+	bool bTurningLeft; // 0x25 (0x1)
+	bool bPreviousTryMotion; // 0x26 (0x1)
+	unsigned char unreflected_27[0x1]; // 0x27 (0x1) 
+	float LastForwardSpeed; // 0x28 (0x4)
+	float TimeUntilAccelOneShotFade; // 0x2c (0x4)
+	float DecelSpeedThreshold; // 0x30 (0x4)
+	float EngineIdleThreshold; // 0x34 (0x4)
+	struct FVector2D WeaponsMovementThreshold; // 0x38 (0x10)
+	struct FName CannonSocketName; // 0x48 (0x4)
+	struct FName TurretSocketName; // 0x4c (0x4)
+	int SurfaceID; // 0x50 (0x4)
+	unsigned char unreflected_54[0x4]; // 0x54 (0x4) 
+	class UAudioComponent* DecelOneShot; // 0x58 (0x8)
+	class UAudioComponent* AccelOneShot; // 0x60 (0x8)
+	class UAudioComponent* TurningOneShot; // 0x68 (0x8)
+	class UFortLayeredAudioComponent* TracksLeftAudio; // 0x70 (0x8)
+	class UFortLayeredAudioComponent* TracksRightAudio; // 0x78 (0x8)
+	unsigned char padding_80[0x38]; // 0x80 (0x38)
+};
+

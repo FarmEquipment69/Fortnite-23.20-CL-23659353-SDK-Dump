@@ -1,0 +1,73 @@
+// VerseClass /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Geometry_skeletal_mesh_component
+// Size: 0x150
+class UVGameplayRst_Geometry_skeletal_mesh_component : public UEntityActorSkeletalMeshRenderComponent
+{
+	unsigned char unreflected_80[0x50]; // 0x80 (0x50) 
+	unsigned char verse0xF1407FB5L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRBeginAnimationLNlogicR_d0[0x10]; // 0xd0 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0xE7E7EB09L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNREndAnimation_e0[0x10]; // 0xe0 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char unreflected_f0[0x50]; // 0xf0 (0x50) 
+	unsigned char verse0xB5AB8B42L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRGetAnimationPlayRateFIXME_140[0x10]; // 0x140 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0x52E2F2ECL2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRGetAnimationPositionFIXME_120[0x10]; // 0x120 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0xB9B2AFACL2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRIsPlayingAnimation_f0[0x10]; // 0xf0 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0x16AAE83DL2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRSetAnimationLNanimationR_c0[0x10]; // 0xc0 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0xC125543AL2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRSetAnimationBlueprintLNanimationblueprintR_b0[0x10]; // 0xb0 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0xB1AAD930L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRSetAnimationInstanceLNanimationinstanceR_a0[0x10]; // 0xa0 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0xDEC1E246L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRSetAnimationModeLNdefaultanimationmodetypeR_90[0x10]; // 0x90 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char unreflected_a0[0x90]; // 0xa0 (0x90) 
+	unsigned char verse0x82643648L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRSetAnimationPlayRateFIXMELNfloatR_130[0x10]; // 0x130 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0xA6E762D2L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRSetAnimationPositionFIXMELNfloatMNlogicR_110[0x10]; // 0x110 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0x9DD66092L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRSetMaterialLNmaterialR_100[0x10]; // 0x100 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0x8DD56EACL2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRSetSkeletalMeshLNskeletalmeshR_80[0x10]; // 0x80 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char padding_90[0xc0]; // 0x90 (0xc0)
+
+	/* Functions */
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Geometry_skeletal_mesh_component._L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RSetSkeletalMesh_L_Nskeletal__mesh_R (Underlying native function: _L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RSetSkeletalMesh_L_Nskeletal__mesh_R 0x709ddc8)
+	void L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRSetSkeletalMeshLNskeletalmeshR(class UAssets_skeletal_mesh*& verse0xB2CDDD72Argument); // (Native | Public | BlueprintCallable)
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Geometry_skeletal_mesh_component._L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RSetMaterial_L_Nmaterial_R (Underlying native function: _L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RSetMaterial_L_Nmaterial_R 0x709ddc0)
+	void L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRSetMaterialLNmaterialR(class UAssets_material*& verse0xB2CDDD72Argument); // (Native | Public | BlueprintCallable)
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Geometry_skeletal_mesh_component._L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RSetAnimationPosition__FIXME_L_Nfloat_M_Nlogic_R (Underlying native function: _L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RSetAnimationPosition__FIXME_L_Nfloat_M_Nlogic_R 0x709ddb0)
+	void L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRSetAnimationPositionFIXMELNfloatMNlogicR(struct Ftuple_Lfloat_Mlogic_R& verse0xB2CDDD72Argument); // (Native | Public | BlueprintCallable)
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Geometry_skeletal_mesh_component._L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RSetAnimationPlayRate__FIXME_L_Nfloat_R (Underlying native function: _L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RSetAnimationPlayRate__FIXME_L_Nfloat_R 0x709dda8)
+	void L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRSetAnimationPlayRateFIXMELNfloatR(double& verse0xB2CDDD72Argument); // (Native | Public | BlueprintCallable)
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Geometry_skeletal_mesh_component._L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RSetAnimationMode_L_Ndefault__animation__mode__type_R (Underlying native function: _L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RSetAnimationMode_L_Ndefault__animation__mode__type_R 0x709dda0)
+	void L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRSetAnimationModeLNdefaultanimationmodetypeR(enum VGameplayRst_Geometry_default_animation_mode_type& verse0xB2CDDD72Argument); // (Native | Public | BlueprintCallable)
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Geometry_skeletal_mesh_component._L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RSetAnimationInstance_L_Nanimation__instance_R (Underlying native function: _L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RSetAnimationInstance_L_Nanimation__instance_R 0x709dd98)
+	void L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRSetAnimationInstanceLNanimationinstanceR(class UAssets_animation_instance*& verse0xB2CDDD72Argument); // (Native | Public | BlueprintCallable)
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Geometry_skeletal_mesh_component._L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RSetAnimationBlueprint_L_Nanimation__blueprint_R (Underlying native function: _L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RSetAnimationBlueprint_L_Nanimation__blueprint_R 0x709dd90)
+	void L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRSetAnimationBlueprintLNanimationblueprintR(class UAssets_animation_blueprint*& verse0xB2CDDD72Argument); // (Native | Public | BlueprintCallable)
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Geometry_skeletal_mesh_component._L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RSetAnimation_L_Nanimation_R (Underlying native function: _L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RSetAnimation_L_Nanimation_R 0x709ddb8)
+	void L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRSetAnimationLNanimationR(class UAssets_animation*& verse0xB2CDDD72Argument); // (Native | Public | BlueprintCallable)
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Geometry_skeletal_mesh_component._L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RIsPlayingAnimation (Underlying native function: _L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RIsPlayingAnimation 0x709dd88)
+	unsigned char L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRIsPlayingAnimation(struct Ftuple_L_R& verse0xB2CDDD72Argument); // (Native | Public | HasOutParms | BlueprintCallable)
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Geometry_skeletal_mesh_component._L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RGetAnimationPosition__FIXME (Underlying native function: _L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RGetAnimationPosition__FIXME 0x709dd80)
+	double L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRGetAnimationPositionFIXME(struct Ftuple_L_R& verse0xB2CDDD72Argument); // (Native | Public | HasOutParms | BlueprintCallable)
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Geometry_skeletal_mesh_component._L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RGetAnimationPlayRate__FIXME (Underlying native function: _L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RGetAnimationPlayRate__FIXME 0x709dd78)
+	double L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRGetAnimationPlayRateFIXME(struct Ftuple_L_R& verse0xB2CDDD72Argument); // (Native | Public | HasOutParms | BlueprintCallable)
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Geometry_skeletal_mesh_component._L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_REndAnimation (Underlying native function: _L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_REndAnimation 0x709dd70)
+	void L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNREndAnimation(struct Ftuple_L_R& verse0xB2CDDD72Argument); // (Native | Public | BlueprintCallable)
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Geometry_skeletal_mesh_component._L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RBeginAnimation_L_Nlogic_R (Underlying native function: _L_2fVerse_2eorg_2fVGameplayRst_2fGeometry_2fskeletal__mesh__component_N_RBeginAnimation_L_Nlogic_R 0x709dd68)
+	void L2fVerse2eorg2fVGameplayRst2fGeometry2fskeletalmeshcomponentNRBeginAnimationLNlogicR(unsigned char& verse0xB2CDDD72Argument); // (Native | Public | BlueprintCallable)
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Geometry_skeletal_mesh_component.$InitInstance (Has no native function)
+	void $InitInstance(); // ()
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Geometry_skeletal_mesh_component.$Block (Has no native function)
+	void $Block(); // ()
+
+	// Function /VGameplayRst/_Verse/VNI/VGameplayRst.VGameplayRst_Geometry_skeletal_mesh_component.$InitCDO (Has no native function)
+	void $InitCDO(); // ()
+};
+

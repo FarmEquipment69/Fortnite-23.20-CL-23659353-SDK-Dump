@@ -1,0 +1,35 @@
+// VerseClass /VerseAIBase/_Verse/VNI/VerseAIBase.VerseAIBase_fort_inventory_interface
+// Size: 0x28
+class UVerseAIBase_fort_inventory_interface : public UObject
+{
+
+	/* Functions */
+
+	// Function /VerseAIBase/_Verse/VNI/VerseAIBase.VerseAIBase_fort_inventory_interface._L_2fFortnite_2ecom_2fAI_2fVerseAIBase_2ffort__inventory__interface_N_RUnregisterUseSuggestedWeaponCallback_L_Nint_R (Has no native function)
+	void L2fFortnite2ecom2fAI2fVerseAIBase2ffortinventoryinterfaceNRUnregisterUseSuggestedWeaponCallbackLNintR(int64_t& verse0xB2CDDD72Argument); // (Public | BlueprintCallable)
+
+	// Function /VerseAIBase/_Verse/VNI/VerseAIBase.VerseAIBase_fort_inventory_interface._L_2fFortnite_2ecom_2fAI_2fVerseAIBase_2ffort__inventory__interface_N_RRegisterUseSuggestedWeaponCallback_L_Nfort__item__descriptor_Tlogic_R (Has no native function)
+	void L2fFortnite2ecom2fAI2fVerseAIBase2ffortinventoryinterfaceNRRegisterUseSuggestedWeaponCallbackLNfortitemdescriptorTlogicR(); // (Public | HasOutParms | BlueprintCallable)
+
+	// Function /VerseAIBase/_Verse/VNI/VerseAIBase.VerseAIBase_fort_inventory_interface._L_2fFortnite_2ecom_2fAI_2fVerseAIBase_2ffort__inventory__interface_N_RIsWeaponEquipped_L_Nfort__item__descriptor_R (Has no native function)
+	unsigned char L2fFortnite2ecom2fAI2fVerseAIBase2ffortinventoryinterfaceNRIsWeaponEquippedLNfortitemdescriptorR(struct FVerseAIBase_fort_item_descriptor& verse0xB2CDDD72Argument); // (Public | HasOutParms | BlueprintCallable)
+
+	// Function /VerseAIBase/_Verse/VNI/VerseAIBase.VerseAIBase_fort_inventory_interface._L_2fFortnite_2ecom_2fAI_2fVerseAIBase_2ffort__inventory__interface_N_RGetWeaponDescriptor_L_Nfort__item__descriptor_R (Has no native function)
+	void L2fFortnite2ecom2fAI2fVerseAIBase2ffortinventoryinterfaceNRGetWeaponDescriptorLNfortitemdescriptorR(struct FVerseAIBase_fort_item_descriptor& verse0xB2CDDD72Argument); // (Public | HasOutParms | BlueprintCallable)
+
+	// Function /VerseAIBase/_Verse/VNI/VerseAIBase.VerseAIBase_fort_inventory_interface._L_2fFortnite_2ecom_2fAI_2fVerseAIBase_2ffort__inventory__interface_N_RGetCurrentWeapon (Has no native function)
+	void L2fFortnite2ecom2fAI2fVerseAIBase2ffortinventoryinterfaceNRGetCurrentWeapon(struct Ftuple_L_R& verse0xB2CDDD72Argument); // (Public | HasOutParms | BlueprintCallable)
+
+	// Function /VerseAIBase/_Verse/VNI/VerseAIBase.VerseAIBase_fort_inventory_interface._L_2fFortnite_2ecom_2fAI_2fVerseAIBase_2ffort__inventory__interface_N_RGetAllItems (Has no native function)
+	struct TArray<struct FVerseAIBase_fort_item_descriptor> L2fFortnite2ecom2fAI2fVerseAIBase2ffortinventoryinterfaceNRGetAllItems(struct Ftuple_L_R& verse0xB2CDDD72Argument); // (Public | HasOutParms | BlueprintCallable)
+
+	// Function /VerseAIBase/_Verse/VNI/VerseAIBase.VerseAIBase_fort_inventory_interface._L_2fFortnite_2ecom_2fAI_2fVerseAIBase_2ffort__inventory__interface_N_REquipWeapon_L_Nfort__item__descriptor_R (Has no native function)
+	void L2fFortnite2ecom2fAI2fVerseAIBase2ffortinventoryinterfaceNREquipWeaponLNfortitemdescriptorR(struct FVerseAIBase_fort_item_descriptor& verse0xB2CDDD72Argument); // (Public | HasOutParms | BlueprintCallable)
+
+	// Function /VerseAIBase/_Verse/VNI/VerseAIBase.VerseAIBase_fort_inventory_interface._L_2fFortnite_2ecom_2fAI_2fVerseAIBase_2ffort__inventory__interface_N_RDropItem_L_Nfort__item__descriptor_R (Has no native function)
+	unsigned char L2fFortnite2ecom2fAI2fVerseAIBase2ffortinventoryinterfaceNRDropItemLNfortitemdescriptorR(struct FVerseAIBase_fort_item_descriptor& verse0xB2CDDD72Argument); // (Public | HasOutParms | BlueprintCallable)
+
+	// Function /VerseAIBase/_Verse/VNI/VerseAIBase.VerseAIBase_fort_inventory_interface._L_2fFortnite_2ecom_2fAI_2fVerseAIBase_2ffort__inventory__interface_N_RAddItemToInventory_L_Nfort__inventory__item__asset_M_Nint_R (Has no native function)
+	void L2fFortnite2ecom2fAI2fVerseAIBase2ffortinventoryinterfaceNRAddItemToInventoryLNfortinventoryitemassetMNintR(struct Ftuple_Lfort__inventory__item__asset_Mint_R& verse0xB2CDDD72Argument); // (Public | HasOutParms | BlueprintCallable)
+};
+

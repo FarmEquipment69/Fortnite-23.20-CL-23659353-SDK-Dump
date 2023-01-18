@@ -1,0 +1,36 @@
+// Class /Script/FortniteUI.FortSocialDisplayData
+// Size: 0x2a8
+class UFortSocialDisplayData : public UDataAsset
+{
+	struct TWeakObjectPtr<class UClass> LoadingActiveChannelSpeakContainerClass; // 0x30 (0x28)
+	struct TWeakObjectPtr<class UClass> LoadingOverrideSpeakerClass; // 0x58 (0x28)
+	struct FLinearColor OnlineIndicatorOnline; // 0x80 (0x10)
+	struct FLinearColor OnlineIndicatorAway; // 0x90 (0x10)
+	struct FLinearColor OnlineIndicatorOffline; // 0xa0 (0x10)
+	struct FLinearColor OnlineIndicatorBlocked; // 0xb0 (0x10)
+	struct FLinearColor UserNameOnline; // 0xc0 (0x10)
+	struct FLinearColor UserNameOfflineAway; // 0xd0 (0x10)
+	struct FLinearColor UserNameBlocked; // 0xe0 (0x10)
+	struct FLinearColor RichPresenceOnline; // 0xf0 (0x10)
+	struct FLinearColor RichPresenceOfflineAway; // 0x100 (0x10)
+	struct FLinearColor RichPresenceBlocked; // 0x110 (0x10)
+	struct FLinearColor FocusHighlightOnline; // 0x120 (0x10)
+	struct FLinearColor FocusHighlightOfflineAway; // 0x130 (0x10)
+	struct FLinearColor PortraitBackgroundColorNormal; // 0x140 (0x10)
+	struct FLinearColor PortraitBackgroundColorAttendingEvent; // 0x150 (0x10)
+	struct FLinearColor PortraitEmptyFillColorNormal; // 0x160 (0x10)
+	struct FLinearColor PortraitEmptyFillColorAttendingEvent; // 0x170 (0x10)
+	struct FLinearColor PortraitEmptyHighlightColorNormal; // 0x180 (0x10)
+	struct FLinearColor PortraitEmptyHighlightColorAttendingEvent; // 0x190 (0x10)
+	struct FLinearColor StatusIndicatorBackgroundOn; // 0x1a0 (0x10)
+	struct FLinearColor StatusIndicatorBackgroundOff; // 0x1b0 (0x10)
+	class UMaterialInstance* BackgroundOnline; // 0x1c0 (0x8)
+	class UMaterialInstance* BackgroundOfflineAway; // 0x1c8 (0x8)
+	class UMaterialInstance* BackgroundSidebarCell; // 0x1d0 (0x8)
+	struct TMap<struct FString, struct FSoftObjectPath> SidekickReactionPathMap; // 0x1d8 (0x50)
+	struct TMap<struct FString, struct FPlatformPrefixIconList> PlatformPrefixIconMap; // 0x228 (0x50)
+	class UTexture2D* GenericPlatformIcon; // 0x278 (0x8)
+	class UClass* SocialBanModalClass; // 0x280 (0x8)
+	unsigned char padding_288[0x20]; // 0x288 (0x20)
+};
+

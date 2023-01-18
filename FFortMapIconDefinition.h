@@ -1,0 +1,37 @@
+// ScriptStruct /Script/FortniteGame.FortMapIconDefinition
+// Size: 0x108
+struct FFortMapIconDefinition
+{
+	class UObject* MapIcon; // 0x0 (0x8)
+	class UObject* MapIconPinned; // 0x8 (0x8)
+	struct FVector2D IconScale; // 0x10 (0x10)
+	bool bUseIconSize; // 0x20 (0x1)
+	unsigned char unreflected_21[0x7]; // 0x21 (0x7) 
+	struct FVector2D IconMaterialSize; // 0x28 (0x10)
+	struct FLinearColor Color; // 0x38 (0x10)
+	class UClass* MinimapIndicatorClass; // 0x48 (0x8)
+	struct TWeakObjectPtr<class UClass> InWorldIndicatorSoftClass; // 0x50 (0x28)
+	class UClass* InWorldIndicatorClass; // 0x78 (0x8)
+	bool bIsVisibleOnMiniMap; // 0x80 (0x1)
+	bool bIsVisibleOnMap; // 0x81 (0x1)
+	bool bIsVisibleInWorld; // 0x82 (0x1)
+	bool bStartVisible; // 0x83 (0x1)
+	unsigned char unreflected_84[0x4]; // 0x84 (0x4) 
+	struct FScalableFloat ViewDistanceRadius; // 0x88 (0x28)
+	bool bOverrideMaxViewDistanceForInWorldIndicator; // 0xb0 (0x1)
+	unsigned char unreflected_b1[0x3]; // 0xb1 (0x3) 
+	float InWorldIndicatorMaxViewDistance; // 0xb4 (0x4)
+	bool bAllowMinViewDistanceForInWorldIndicator; // 0xb8 (0x1)
+	unsigned char unreflected_b9[0x3]; // 0xb9 (0x3) 
+	float InWorldIndicatorMinViewDistance; // 0xbc (0x4)
+	bool bIncludeZOffsetInDistanceChecks; // 0xc0 (0x1)
+	bool bIgnoreActorRotation; // 0xc1 (0x1)
+	unsigned char unreflected_c2[0x6]; // 0xc2 (0x6) 
+	struct FVector LocationOffset; // 0xc8 (0x18)
+	bool bUseWorldSpaceForOffset; // 0xe0 (0x1)
+	unsigned char unreflected_e1[0x3]; // 0xe1 (0x3) 
+	struct FElevationArrowData ElevationArrowData; // 0xe4 (0x1c)
+	int Priority; // 0x100 (0x4)
+	unsigned char padding_104[0x4]; // 0x104 (0x4)
+};
+

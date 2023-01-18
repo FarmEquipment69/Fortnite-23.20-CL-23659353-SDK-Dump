@@ -1,0 +1,10 @@
+// ScriptStruct /Script/CoreUObject.Quat4f
+// Size: 0x10
+struct FQuat4f
+{
+	float X; // 0x0 (0x4)
+	float Y; // 0x4 (0x4)
+	float Z; // 0x8 (0x4)
+	float W; // 0xc (0x4)
+};
+

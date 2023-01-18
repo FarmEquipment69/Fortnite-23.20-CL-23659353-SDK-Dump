@@ -1,0 +1,38 @@
+// Class /Script/Engine.PhysicsSettings
+// Size: 0x1e0
+class UPhysicsSettings : public UPhysicsSettingsCore
+{
+	struct FRigidBodyErrorCorrection PhysicErrorCorrection; // 0xd8 (0x34)
+	struct TEnumAsByte<ESettingsLockedAxis> LockedAxis; // 0x10c (0x1)
+	struct TEnumAsByte<ESettingsDOF> DefaultDegreesOfFreedom; // 0x10d (0x1)
+	bool bSuppressFaceRemapTable; // 0x10e (0x1)
+	bool bSupportUVFromHitResults; // 0x10f (0x1)
+	bool bDisableActiveActors; // 0x110 (0x1)
+	bool bDisableKinematicStaticPairs; // 0x111 (0x1)
+	bool bDisableKinematicKinematicPairs; // 0x112 (0x1)
+	bool bDisableCCD; // 0x113 (0x1)
+	bool bEnableEnhancedDeterminism; // 0x114 (0x1)
+	unsigned char unreflected_115[0x3]; // 0x115 (0x3) 
+	float AnimPhysicsMinDeltaTime; // 0x118 (0x4)
+	bool bSimulateAnimPhysicsAfterReset; // 0x11c (0x1)
+	unsigned char unreflected_11d[0x3]; // 0x11d (0x3) 
+	float MinPhysicsDeltaTime; // 0x120 (0x4)
+	float MaxPhysicsDeltaTime; // 0x124 (0x4)
+	bool bSubstepping; // 0x128 (0x1)
+	bool bSubsteppingAsync; // 0x129 (0x1)
+	bool bTickPhysicsAsync; // 0x12a (0x1)
+	unsigned char unreflected_12b[0x1]; // 0x12b (0x1) 
+	float AsyncFixedTimeStepSize; // 0x12c (0x4)
+	float MaxSubstepDeltaTime; // 0x130 (0x4)
+	int MaxSubsteps; // 0x134 (0x4)
+	float SyncSceneSmoothingFactor; // 0x138 (0x4)
+	float InitialAverageFrameRate; // 0x13c (0x4)
+	int PhysXTreeRebuildRate; // 0x140 (0x4)
+	unsigned char unreflected_144[0x4]; // 0x144 (0x4) 
+	struct TArray<struct FPhysicalSurfaceName*> PhysicalSurfaces; // 0x148 (0x10)
+	struct FBroadphaseSettings DefaultBroadphaseSettings; // 0x158 (0x80)
+	float MinDeltaVelocityForHitEvents; // 0x1d8 (0x4)
+	struct FChaosPhysicsSettings ChaosSettings; // 0x1dc (0x3)
+	unsigned char padding_1df[0x1]; // 0x1df (0x1)
+};
+

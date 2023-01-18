@@ -1,0 +1,6 @@
+// BlueprintGeneratedClass /Irwin/AI/Prey/Nug/Abilities/GA_NPC_Irwin_Prey_Nug_PlayMontage_RecentlyAttackedByPawn.GA_NPC_Irwin_Prey_Nug_PlayMontage_RecentlyAttackedByPawn_C
+// Size: 0xf78
+class UGA_NPC_Irwin_Prey_Nug_PlayMontage_RecentlyAttackedByPawn_C : public UGA_NPC_Parent_PlayMontage_Contagious_C
+{
+};
+

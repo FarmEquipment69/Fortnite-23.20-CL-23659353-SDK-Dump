@@ -1,0 +1,37 @@
+// Class /Script/FortniteGame.FortSupplyDropInfo
+// Size: 0x3a0
+class UFortSupplyDropInfo : public UDataAsset
+{
+	struct FName SupplyDropID; // 0x30 (0x4)
+	unsigned char unreflected_34[0x4]; // 0x34 (0x4) 
+	class UClass* SupplyDropClass; // 0x38 (0x8)
+	enum ESupplyDropSpawnType SpawnType; // 0x40 (0x1)
+	bool bIgnoreBlueprintOverrides; // 0x41 (0x1)
+	unsigned char unreflected_42[0x2]; // 0x42 (0x2) 
+	struct FGameplayTag SpecialActorTag; // 0x44 (0x4)
+	unsigned char unreflected_48[0x8]; // 0x48 (0x8) 
+	struct FSlateBrush SpecialActorMinimapIconBrush; // 0x50 (0xc0)
+	struct FVector2D SpecialActorMinimapIconScale; // 0x110 (0x10)
+	struct FSlateBrush SpecialActorCompassIconBrush; // 0x120 (0xc0)
+	struct FVector2D SpecialActorCompassIconScale; // 0x1e0 (0x10)
+	bool bShouldDrawCompassIcon; // 0x1f0 (0x1)
+	unsigned char unreflected_1f1[0x7]; // 0x1f1 (0x7) 
+	struct TArray<struct FFortSupplyDropGamePhaseData> GamePhaseData; // 0x1f8 (0x10)
+	enum ESupplyDropItemTrackType ItemTrackType; // 0x208 (0x1)
+	enum EAthenaGamePhase GamePhaseToSpawn; // 0x209 (0x1)
+	unsigned char unreflected_20a[0x2]; // 0x20a (0x2) 
+	int SafeZoneIndexToSpawn; // 0x20c (0x4)
+	struct FGameplayTagContainer SupplyDropTrackingTags; // 0x210 (0x20)
+	bool bShouldMaintainItemCount; // 0x230 (0x1)
+	unsigned char unreflected_231[0x7]; // 0x231 (0x7) 
+	struct FScalableFloat NumDeliveryItemsToSpawn; // 0x238 (0x28)
+	struct FScalableFloat MinInitialDeliveryDelayTime; // 0x260 (0x28)
+	struct FScalableFloat MaxInitialDeliveryDelayTime; // 0x288 (0x28)
+	struct FScalableFloat MinTimeBetweenDrops; // 0x2b0 (0x28)
+	struct FScalableFloat MaxTimeBetweenDrops; // 0x2d8 (0x28)
+	struct FScalableFloat MinRespawnTime; // 0x300 (0x28)
+	struct FScalableFloat MaxRespawnTime; // 0x328 (0x28)
+	struct FScalableFloat MinTraceHeight; // 0x350 (0x28)
+	struct FScalableFloat MaxTraceHeight; // 0x378 (0x28)
+};
+

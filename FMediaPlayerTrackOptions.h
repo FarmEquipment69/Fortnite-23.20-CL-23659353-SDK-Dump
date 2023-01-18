@@ -1,0 +1,13 @@
+// ScriptStruct /Script/MediaUtils.MediaPlayerTrackOptions
+// Size: 0x1c
+struct FMediaPlayerTrackOptions
+{
+	int Audio; // 0x0 (0x4)
+	int Caption; // 0x4 (0x4)
+	int MetaData; // 0x8 (0x4)
+	int Script; // 0xc (0x4)
+	int Subtitle; // 0x10 (0x4)
+	int Text; // 0x14 (0x4)
+	int Video; // 0x18 (0x4)
+};
+

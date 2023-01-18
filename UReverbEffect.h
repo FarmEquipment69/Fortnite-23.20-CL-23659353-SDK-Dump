@@ -1,0 +1,22 @@
+// Class /Script/Engine.ReverbEffect
+// Size: 0x60
+class UReverbEffect : public UObject
+{
+	bool bBypassEarlyReflections; // 0x28 (0x1)
+	unsigned char unreflected_29[0x3]; // 0x29 (0x3) 
+	float ReflectionsDelay; // 0x2c (0x4)
+	float GainHF; // 0x30 (0x4)
+	float ReflectionsGain; // 0x34 (0x4)
+	bool bBypassLateReflections; // 0x38 (0x1)
+	unsigned char unreflected_39[0x3]; // 0x39 (0x3) 
+	float LateDelay; // 0x3c (0x4)
+	float DecayTime; // 0x40 (0x4)
+	float Density; // 0x44 (0x4)
+	float Diffusion; // 0x48 (0x4)
+	float AirAbsorptionGainHF; // 0x4c (0x4)
+	float DecayHFRatio; // 0x50 (0x4)
+	float LateGain; // 0x54 (0x4)
+	float Gain; // 0x58 (0x4)
+	float RoomRolloffFactor; // 0x5c (0x4)
+};
+

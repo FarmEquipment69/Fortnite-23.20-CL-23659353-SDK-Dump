@@ -1,0 +1,29 @@
+// VerseClass /VerseAIBase/_Verse/VNI/VerseAIBase.VerseAIBase_fort_threat_perception_interface
+// Size: 0x28
+class UVerseAIBase_fort_threat_perception_interface : public UObject
+{
+
+	/* Functions */
+
+	// Function /VerseAIBase/_Verse/VNI/VerseAIBase.VerseAIBase_fort_threat_perception_interface._L_2fFortnite_2ecom_2fAI_2fVerseAIBase_2ffort__threat__perception__interface_N_RGetThreatsInfo (Has no native function)
+	void L2fFortnite2ecom2fAI2fVerseAIBase2ffortthreatperceptioninterfaceNRGetThreatsInfo(struct Ftuple_L_R& verse0xB2CDDD72Argument); // (Public | HasOutParms | BlueprintCallable)
+
+	// Function /VerseAIBase/_Verse/VNI/VerseAIBase.VerseAIBase_fort_threat_perception_interface._L_2fFortnite_2ecom_2fAI_2fVerseAIBase_2ffort__threat__perception__interface_N_RGetThreatInfo_L_Nfort__character_R (Has no native function)
+	void L2fFortnite2ecom2fAI2fVerseAIBase2ffortthreatperceptioninterfaceNRGetThreatInfoLNfortcharacterR(class UObject*& verse0xB2CDDD72Argument); // (Public | HasOutParms | BlueprintCallable)
+
+	// Function /VerseAIBase/_Verse/VNI/VerseAIBase.VerseAIBase_fort_threat_perception_interface._L_2fFortnite_2ecom_2fAI_2fVerseAIBase_2ffort__threat__perception__interface_N_RGetOrCreateThreatInfo_L_Nfort__character_M_Nlogic_R (Has no native function)
+	void L2fFortnite2ecom2fAI2fVerseAIBase2ffortthreatperceptioninterfaceNRGetOrCreateThreatInfoLNfortcharacterMNlogicR(struct Ftuple_Lfort__character_Mlogic_R& verse0xB2CDDD72Argument); // (Public | HasOutParms | BlueprintCallable)
+
+	// Function /VerseAIBase/_Verse/VNI/VerseAIBase.VerseAIBase_fort_threat_perception_interface._L_2fFortnite_2ecom_2fAI_2fVerseAIBase_2ffort__threat__perception__interface_N_RGetCurrentThreatInfo (Has no native function)
+	void L2fFortnite2ecom2fAI2fVerseAIBase2ffortthreatperceptioninterfaceNRGetCurrentThreatInfo(struct Ftuple_L_R& verse0xB2CDDD72Argument); // (Public | HasOutParms | BlueprintCallable)
+
+	// Function /VerseAIBase/_Verse/VNI/VerseAIBase.VerseAIBase_fort_threat_perception_interface._L_2fFortnite_2ecom_2fAI_2fVerseAIBase_2ffort__threat__perception__interface_N_RForgetThreat_L_Nfort__threat__info_R (Has no native function)
+	void L2fFortnite2ecom2fAI2fVerseAIBase2ffortthreatperceptioninterfaceNRForgetThreatLNfortthreatinfoR(struct FVerseAIBase_fort_threat_info& verse0xB2CDDD72Argument); // (Public | BlueprintCallable)
+
+	// Function /VerseAIBase/_Verse/VNI/VerseAIBase.VerseAIBase_fort_threat_perception_interface._L_2fFortnite_2ecom_2fAI_2fVerseAIBase_2ffort__threat__perception__interface_N_RCurrentThreatStatusChangedEvent (Has no native function)
+	class UObject* L2fFortnite2ecom2fAI2fVerseAIBase2ffortthreatperceptioninterfaceNRCurrentThreatStatusChangedEvent(struct Ftuple_L_R& verse0xB2CDDD72Argument); // (Public | HasOutParms | BlueprintCallable)
+
+	// Function /VerseAIBase/_Verse/VNI/VerseAIBase.VerseAIBase_fort_threat_perception_interface._L_2fFortnite_2ecom_2fAI_2fVerseAIBase_2ffort__threat__perception__interface_N_RCurrentThreatChangedEvent (Has no native function)
+	class UObject* L2fFortnite2ecom2fAI2fVerseAIBase2ffortthreatperceptioninterfaceNRCurrentThreatChangedEvent(struct Ftuple_L_R& verse0xB2CDDD72Argument); // (Public | HasOutParms | BlueprintCallable)
+};
+

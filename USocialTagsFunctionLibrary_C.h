@@ -1,0 +1,29 @@
+// BlueprintGeneratedClass /Game/UI/Sidebar/Tags/SocialTagsFunctionLibrary.SocialTagsFunctionLibrary_C
+// Size: 0x28
+class USocialTagsFunctionLibrary_C : public UBlueprintFunctionLibrary
+{
+
+	/* Functions */
+
+	// Function /Game/UI/Sidebar/Tags/SocialTagsFunctionLibrary.SocialTagsFunctionLibrary_C.InterpolateTagContentColors (Has no native function)
+	static void InterpolateTagContentColors(class UTextBlock*& TagName, class UImage*& CheckMark, struct FLinearColor& CurrentTagContentColor, struct FLinearColor& TargetTagContentColor, double& HoveredTagContentLerpAlpha, class UObject*& WorldContext, bool& CallFuncIsValidReturnValue, struct FLinearColor& CallFuncLinearColorLerpReturnValue, struct FLinearColor& CallFuncLinearColorLerpReturnValue1, bool& CallFuncIsValidReturnValue1, struct FSlateColor& K2NodeMakeStructSlateColor, float& CallFuncLinearColorLerpAlphaImplicitCast, float& CallFuncLinearColorLerpAlphaImplicitCast1); // (Static | Public | HasDefaults | BlueprintCallable | BlueprintEvent)
+
+	// Function /Game/UI/Sidebar/Tags/SocialTagsFunctionLibrary.SocialTagsFunctionLibrary_C.InterpolateTagBorderColors (Has no native function)
+	static void InterpolateTagBorderColors(class UMaterialInstanceDynamic*& TagBorderMaterial, struct FName& NameInnerColor, struct FLinearColor& CurrentInnerColor, struct FLinearColor& TargetInnerColor, struct FName& NameOuterColor, struct FLinearColor& CurrentOuterColor, struct FLinearColor& TargetOuterColor, double& HoveredBorderColorLerpAlpha, struct FTimerHandle*& ColorLerpTimeHandle, class UObject*& WorldContext, class UObject*& WorldContext); // (Static | Public | HasOutParms | BlueprintCallable | BlueprintEvent)
+
+	// Function /Game/UI/Sidebar/Tags/SocialTagsFunctionLibrary.SocialTagsFunctionLibrary_C.ClearLerpColorTimer (Has no native function)
+	static void ClearLerpColorTimer(double& ColorLerpAlpha, struct FTimerHandle*& ColorLerpTimeHandle, class UObject*& WorldContext, bool& CallFuncEqualEqualDoubleDoubleReturnValue); // (Static | Public | HasOutParms | BlueprintCallable | BlueprintEvent)
+
+	// Function /Game/UI/Sidebar/Tags/SocialTagsFunctionLibrary.SocialTagsFunctionLibrary_C.InterpolateMaterialColor (Has no native function)
+	static void InterpolateMaterialColor(class UMaterialInstanceDynamic*& Material, struct FName& ColorParameterName, struct FLinearColor& CurrentColor, struct FLinearColor& TargetColor, double& ColorLerpAlpha, class UObject*& WorldContext, struct FLinearColor& CallFuncLinearColorLerpReturnValue, float& CallFuncLinearColorLerpAlphaImplicitCast); // (Static | Public | BlueprintCallable | BlueprintEvent)
+
+	// Function /Game/UI/Sidebar/Tags/SocialTagsFunctionLibrary.SocialTagsFunctionLibrary_C.InterpolateTagBorderOuterStrokeColor (Has no native function)
+	static void InterpolateTagBorderOuterStrokeColor(class UBorder*& TagBorder, struct FName& TagOuterStrokeColor, struct FSidebarSocialTagCategoryStructure& SidebarSocialTagCategoryStructure, double& TagBorderInnerColorHoveredLerpValue, struct FTimerHandle*& TagBorderInnerColorHoveredLerpTimeHandle, class UWidget*& TagWidgetReference, struct FLinearColor& TagOuterStrokeColorUnhovered, class UObject*& WorldContext, bool& CallFuncIsHoveredReturnValue, bool& CallFuncEqualEqualDoubleDoubleReturnValue, bool& CallFuncNotPreBoolReturnValue, bool& CallFuncEqualEqualDoubleDoubleReturnValue1, bool& CallFuncBooleanANDReturnValue, bool& CallFuncBooleanANDReturnValue1, bool& CallFuncBooleanORReturnValue, struct FLinearColor& CallFuncLinearColorLerpReturnValue, class UMaterialInstanceDynamic*& CallFuncGetDynamicMaterialReturnValue, bool& CallFuncIsValidReturnValue, float& CallFuncLinearColorLerpAlphaImplicitCast); // (Static | Public | HasOutParms | BlueprintCallable | BlueprintEvent)
+
+	// Function /Game/UI/Sidebar/Tags/SocialTagsFunctionLibrary.SocialTagsFunctionLibrary_C.InterpolateTagBorderGradientColor (Has no native function)
+	static void InterpolateTagBorderGradientColor(class UBorder*& TagBorder, struct FName& TagInnerColorGradient1, struct FName& TagInnerColorGradient2, struct FSidebarSocialTagCategoryStructure& SidebarSocialTagCategoryStructure, double& TagBorderInnerColorHoveredLerpValue, struct FTimerHandle*& TagBorderInnerColorHoveredLerpTimeHandle, class UWidget*& TagWidgetReference, class UObject*& WorldContext, bool& CallFuncIsHoveredReturnValue, bool& CallFuncEqualEqualDoubleDoubleReturnValue, bool& CallFuncNotPreBoolReturnValue, bool& CallFuncEqualEqualDoubleDoubleReturnValue1, bool& CallFuncBooleanANDReturnValue, bool& CallFuncBooleanANDReturnValue1, bool& CallFuncBooleanORReturnValue, struct FLinearColor& CallFuncLinearColorLerpReturnValue, struct FLinearColor& CallFuncLinearColorLerpReturnValue1, class UMaterialInstanceDynamic*& CallFuncGetDynamicMaterialReturnValue, bool& CallFuncIsValidReturnValue, float& CallFuncLinearColorLerpAlphaImplicitCast, float& CallFuncLinearColorLerpAlphaImplicitCast1); // (Static | Public | HasOutParms | BlueprintCallable | BlueprintEvent)
+
+	// Function /Game/UI/Sidebar/Tags/SocialTagsFunctionLibrary.SocialTagsFunctionLibrary_C.Get Sidebar Social Tag Category Structure (Has no native function)
+	static void GetSidebarSocialTagCategoryStructure(struct FString& TagCategory, class UObject*& WorldContext, struct FSidebarSocialTagCategoryStructure& SidebarSocialTagCategoryStructure, struct FSidebarSocialTagCategoryStructure& LocalSidebarSocialTagCategoryStructure, struct FString& CallFuncReplaceReturnValue, struct FName& CallFuncConvStringToNameReturnValue, struct FSidebarSocialTagCategoryStructure& CallFuncGetDataTableRowFromNameOutRow, bool& CallFuncGetDataTableRowFromNameReturnValue, struct FSidebarSocialTagCategoryStructure& CallFuncGetDataTableRowFromNameOutRow1, bool& CallFuncGetDataTableRowFromNameReturnValue1); // (Static | Public | HasOutParms | HasDefaults | BlueprintCallable | BlueprintEvent)
+};
+

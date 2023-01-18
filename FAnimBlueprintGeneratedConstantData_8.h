@@ -1,0 +1,37 @@
+// ScriptStruct /Game/Characters/Player/AnimationBlueprints/LinkedAnimGraphs/Player_DBNO_AnimBP.Player_DBNO_AnimBP_C.AnimBlueprintGeneratedConstantData
+// Size: 0x130
+struct FAnimBlueprintGeneratedConstantData : FAnimBlueprintConstantData
+{
+	unsigned char unreflected_1[0x3]; // 0x1 (0x3) 
+	struct FName NameProperty133; // 0x4 (0x4)
+	float FloatProperty134; // 0x8 (0x4)
+	struct FName NameProperty135; // 0xc (0x4)
+	int IntProperty136; // 0x10 (0x4)
+	struct FName NameProperty137; // 0x14 (0x4)
+	int IntProperty138; // 0x18 (0x4)
+	float FloatProperty139; // 0x1c (0x4)
+	struct FName NameProperty140; // 0x20 (0x4)
+	int IntProperty141; // 0x24 (0x4)
+	struct FName NameProperty142; // 0x28 (0x4)
+	int IntProperty143; // 0x2c (0x4)
+	struct FInputScaleBiasClampConstants StructProperty144; // 0x30 (0x2c)
+	float FloatProperty145; // 0x5c (0x4)
+	enum EAnimSyncMethod EnumProperty146; // 0x60 (0x1)
+	struct TEnumAsByte<EAnimGroupRole> ByteProperty147; // 0x61 (0x1)
+	unsigned char unreflected_62[0x2]; // 0x62 (0x2) 
+	struct FName NameProperty148; // 0x64 (0x4)
+	struct FName NameProperty149; // 0x68 (0x4)
+	int IntProperty150; // 0x6c (0x4)
+	bool BoolProperty151; // 0x70 (0x1)
+	unsigned char unreflected_71[0x3]; // 0x71 (0x3) 
+	float FloatProperty152; // 0x74 (0x4)
+	bool BoolProperty153; // 0x78 (0x1)
+	enum EAnimSyncMethod EnumProperty154; // 0x79 (0x1)
+	struct TEnumAsByte<EAnimGroupRole> ByteProperty155; // 0x7a (0x1)
+	unsigned char unreflected_7b[0x1]; // 0x7b (0x1) 
+	struct FName NameProperty156; // 0x7c (0x4)
+	struct FAnimNodeFunctionRef StructProperty157; // 0x80 (0x18)
+	struct FAnimSubsystem_PropertyAccess AnimBlueprintExtensionPropertyAccess; // 0x98 (0x80)
+	struct FAnimSubsystem_Base AnimBlueprintExtensionBase; // 0x118 (0x18)
+};
+

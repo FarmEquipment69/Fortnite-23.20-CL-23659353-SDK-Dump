@@ -1,0 +1,30 @@
+// Enum /Script/FortniteUI.EOptionalFlowSteps
+enum class EOptionalFlowSteps : uint8_t
+{
+  TryShowMobileGuidedTutorial = 0,
+  TryPlaySeasonTrailer = 1,
+  TryPlayBattlePassTrailer = 2,
+  TryShowMOTDs = 3,
+  TryShowNormalBanModal = 4,
+  TryShowSocialBanModal = 5,
+  TryShowMFAModal = 6,
+  TryShowCrossplayDialog = 7,
+  TryShowSocialImport = 8,
+  TryShowSurveys = 9,
+  TryShowFireModeModal = 10,
+  TryShowBadMatchPopup = 11,
+  TryShowMobileInGameAppRating = 12,
+  TryShowSamsungSensorWarning = 13,
+  TryShowBattlePassPurchaseScreen = 14,
+  TryShowMultipleSubscriptionsAlert = 15,
+  TryPushGiftingScreen = 16,
+  TryPushMessagingScreen = 17,
+  TryGoToBattlePassTab = 18,
+  TryShowRefundTokenNotification = 19,
+  TryShowPriceChangeAcknowledgeNotification = 20,
+  TryShowFireModeSelectionReminderModal = 21,
+  TryShowSettingsChangeAcknowledgementScreen = 22,
+  TryShowMatchmaking = 23,
+  TryShowEnterCabinModeScreen = 24,
+  EOptionalFlowSteps_MAX = 25
+};

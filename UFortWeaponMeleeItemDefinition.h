@@ -1,0 +1,38 @@
+// Class /Script/FortniteGame.FortWeaponMeleeItemDefinition
+// Size: 0x10b0
+class UFortWeaponMeleeItemDefinition : public UFortWeaponItemDefinition
+{
+	struct TWeakObjectPtr<class UParticleSystem> IdleEffect; // 0xd58 (0x28)
+	struct TWeakObjectPtr<class UNiagaraSystem> IdleEffectNiagara; // 0xd80 (0x28)
+	struct FName IdleFXSocketName; // 0xda8 (0x4)
+	unsigned char unreflected_dac[0x4]; // 0xdac (0x4) 
+	struct TWeakObjectPtr<class UParticleSystem> SwingEffect; // 0xdb0 (0x28)
+	struct TWeakObjectPtr<class UNiagaraSystem> SwingEffectNiagara; // 0xdd8 (0x28)
+	struct FName SwingFXSocketName; // 0xe00 (0x4)
+	unsigned char unreflected_e04[0x4]; // 0xe04 (0x4) 
+	struct TWeakObjectPtr<class UParticleSystem> AnimTrails; // 0xe08 (0x28)
+	struct TWeakObjectPtr<class UNiagaraSystem> AnimTrailsNiagara; // 0xe30 (0x28)
+	struct FName NiagaraSkeletonDIVariableName; // 0xe58 (0x4)
+	struct FName AnimTrailsFirstSocketName; // 0xe5c (0x4)
+	struct FName AnimTrailsSecondSocketName; // 0xe60 (0x4)
+	float AnimTrailsWidth; // 0xe64 (0x4)
+	bool bUseAnimTrails; // 0xe68 (0x1)
+	bool bAttachAnimTrailsToWeapon; // 0xe69 (0x1)
+	unsigned char unreflected_e6a[0x6]; // 0xe6a (0x6) 
+	struct TMap<struct TEnumAsByte<EPhysicalSurface>, struct TWeakObjectPtr<class UParticleSystem>> ImpactPhysicalSurfaceEffectsMap; // 0xe70 (0x50)
+	struct TArray<struct TWeakObjectPtr<class UNiagaraSystem>> ImpactNiagaraPhysicalSurfaceEffects; // 0xec0 (0x10)
+	struct TMap<struct TEnumAsByte<EPhysicalSurface>, struct TWeakObjectPtr<class UNiagaraSystem>> ImpactNiagaraPhysicalSurfaceEffectsMap; // 0xed0 (0x50)
+	struct TArray<struct FAttachedParticleComponentDef> ParticleComponentsDefs; // 0xf20 (0x10)
+	struct TArray<struct TWeakObjectPtr<class UMaterialInterface>> WeaponMaterialOverrides; // 0xf30 (0x10)
+	struct TWeakObjectPtr<class UClass> AnimClass; // 0xf40 (0x28)
+	struct TWeakObjectPtr<class UAnimationAsset> SingleAnimationToPlay; // 0xf68 (0x28)
+	struct TMap<struct TEnumAsByte<EPhysicalSurface>, struct TWeakObjectPtr<class USoundBase>> ImpactPhysicalSurfaceSoundsMap; // 0xf90 (0x50)
+	struct TMap<struct TEnumAsByte<EFortReloadFXState>, struct TWeakObjectPtr<class USoundBase>> ReloadSoundsMap; // 0xfe0 (0x50)
+	struct TMap<struct TEnumAsByte<EFortWeaponSoundState>, struct TWeakObjectPtr<class USoundBase>> PrimaryFireSoundMap; // 0x1030 (0x50)
+	struct TWeakObjectPtr<class USoundBase> GenericImpactSound; // 0x1080 (0x28)
+	bool bNeedsMaterial0MID; // 0x10a8 (0x1)
+	bool bWatchKills; // 0x10a9 (0x1)
+	bool bCandyCaneKillReaction; // 0x10aa (0x1)
+	unsigned char padding_10ab[0x5]; // 0x10ab (0x5)
+};
+

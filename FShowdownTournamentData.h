@@ -1,0 +1,36 @@
+// ScriptStruct /Script/FortniteUI.ShowdownTournamentData
+// Size: 0x1f8
+struct FShowdownTournamentData
+{
+	struct FString TournamentDisplayId; // 0x0 (0x10)
+	struct FText TitleLine1; // 0x10 (0x18)
+	struct FText TitleLine2; // 0x28 (0x18)
+	struct FText ScheduleInfo; // 0x40 (0x18)
+	struct FString PosterFrontImage; // 0x58 (0x10)
+	struct FString PosterBackImage; // 0x68 (0x10)
+	struct FText FlavorDescription; // 0x78 (0x18)
+	struct FText DetailsDescription; // 0x90 (0x18)
+	struct FText ShortFormatTitle; // 0xa8 (0x18)
+	struct FText LongFormatTitle; // 0xc0 (0x18)
+	struct FText BackgroundTitle; // 0xd8 (0x18)
+	int PinScoreRequirement; // 0xf0 (0x4)
+	unsigned char unreflected_f4[0x4]; // 0xf4 (0x4) 
+	struct FText PinEarnedText; // 0xf8 (0x18)
+	struct FLinearColor BaseColor; // 0x110 (0x10)
+	struct FLinearColor PrimaryColor; // 0x120 (0x10)
+	struct FLinearColor SecondaryColor; // 0x130 (0x10)
+	struct FLinearColor HighlightColor; // 0x140 (0x10)
+	struct FLinearColor TitleColor; // 0x150 (0x10)
+	struct FLinearColor ShadowColor; // 0x160 (0x10)
+	struct FLinearColor BackgroundLeftColor; // 0x170 (0x10)
+	struct FLinearColor BackgroundRightColor; // 0x180 (0x10)
+	struct FLinearColor BackgroundTextColor; // 0x190 (0x10)
+	struct FLinearColor PosterFadeColor; // 0x1a0 (0x10)
+	struct FString PlaylistTileImage; // 0x1b0 (0x10)
+	struct FString LoadingScreenImage; // 0x1c0 (0x10)
+	struct FString StyleInfoId; // 0x1d0 (0x10)
+	struct FString AlertText; // 0x1e0 (0x10)
+	enum EFortTournamentAlertType AlertType; // 0x1f0 (0x1)
+	unsigned char padding_1f1[0x7]; // 0x1f1 (0x7)
+};
+

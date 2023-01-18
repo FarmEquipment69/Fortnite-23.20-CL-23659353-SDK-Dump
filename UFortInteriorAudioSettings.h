@@ -1,0 +1,35 @@
+// Class /Script/FortniteGame.FortInteriorAudioSettings
+// Size: 0x138
+class UFortInteriorAudioSettings : public UPrimaryDataAsset
+{
+	struct TMap<enum EInteriorAudioBuildingType, struct FInteriorAudioDictionary> Dictionaries; // 0x30 (0x50)
+	class UClass* ManagerClass; // 0x80 (0x8)
+	int HorizontalScanDistance; // 0x88 (0x4)
+	int VerticalScanDistance; // 0x8c (0x4)
+	int TotalBuildingCountRequiredForInterior; // 0x90 (0x4)
+	int TotalBuildingCountRequiredForPartialExterior; // 0x94 (0x4)
+	int TotalCeilingCountRequiredAlongHorizontalScan; // 0x98 (0x4)
+	int HorizontalLineTraceDistance; // 0x9c (0x4)
+	int VerticalLineTraceDistance; // 0xa0 (0x4)
+	struct TEnumAsByte<ECollisionChannel> TraceCollisionChannel; // 0xa4 (0x1)
+	unsigned char unreflected_a5[0x3]; // 0xa5 (0x3) 
+	class USoundMix* InteriorSoundMix; // 0xa8 (0x8)
+	class USoundMix* PartialInteriorSoundMix; // 0xb0 (0x8)
+	class USoundMix* PartialExteriorSoundMix; // 0xb8 (0x8)
+	int AmbientEntryPriority; // 0xc0 (0x4)
+	unsigned char unreflected_c4[0x4]; // 0xc4 (0x4) 
+	class UAmbientAudioDataAsset* AmbientBanks[0x6]; // 0xc8 (0x8) (ARRAY) 
+	float AmbientBankFadeInTime; // 0xf8 (0x4)
+	float AmbientBankFadeOutTime; // 0xfc (0x4)
+	struct FGameplayTag AmbientTagOutdoors; // 0x100 (0x4)
+	struct FGameplayTag AmbientTagIndoors; // 0x104 (0x4)
+	struct FGameplayTag AmbientTagIndoorPlayerBuilt; // 0x108 (0x4)
+	unsigned char unreflected_10c[0x4]; // 0x10c (0x4) 
+	struct TArray<struct FInteriorAudioRoomSizeInfo*> RoomSizeInfo; // 0x110 (0x10)
+	class USoundBase* SourceBusAsset; // 0x120 (0x8)
+	float SourceBusFadeInTime; // 0x128 (0x4)
+	float SourceBusFadeOutTime; // 0x12c (0x4)
+	float SourceBusCrossfadeTime; // 0x130 (0x4)
+	unsigned char padding_134[0x4]; // 0x134 (0x4)
+};
+

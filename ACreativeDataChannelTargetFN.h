@@ -1,0 +1,35 @@
+// Class /Script/CreativeDataChannelTriggerRuntime.CreativeDataChannelTargetFN
+// Size: 0x5b8
+class ACreativeDataChannelTargetFN : public AElectraDataChannelTarget
+{
+	unsigned char unreflected_300[0x8]; // 0x300 (0x8) 
+	int VersionByte; // 0x308 (0x4)
+	struct FCDCInt VersionByteTracker; // 0x30c (0x4)
+	struct FMulticastInlineDelegate VersionByteEvent; // 0x310 (0x10)
+	struct FString LeaderBoard; // 0x320 (0x10)
+	int64_t StormCircleSize; // 0x330 (0x8)
+	struct FCDCLargeInt* StormCircleSizeTracker; // 0x338 (0x8)
+	struct FMulticastInlineDelegate StormCircleSizeEvent; // 0x340 (0x10)
+	struct TArray<float> StormCircleLocation; // 0x350 (0x10)
+	struct FCDCFloatArray StormCircleLocationTracker; // 0x360 (0x10)
+	struct FMulticastInlineDelegate StormCircleLocationEvent; // 0x370 (0x10)
+	struct FString PlayerLocation; // 0x380 (0x10)
+	struct FCDCStringFloatArrayMap PlayerLocationTracker; // 0x390 (0x50)
+	struct FMulticastInlineDelegate PlayerLocationEvent; // 0x3e0 (0x10)
+	struct FString ArenaPointLeaderBoard; // 0x3f0 (0x10)
+	struct FCDCStringStringMap ArenaPointLeaderBoardTracker; // 0x400 (0xa0)
+	struct FMulticastInlineDelegate ArenaPointLeaderBoardEvent; // 0x4a0 (0x10)
+	struct FString CashCupDataAllTimeEarners; // 0x4b0 (0x10)
+	struct FCDCStringFloatMap CashCupDataAllTimeEanersTracker; // 0x4c0 (0x50)
+	struct FMulticastInlineDelegate CashCupDataAllTimeEarnersEvent; // 0x510 (0x10)
+	struct FString MythicBossEliminatedPlayer; // 0x520 (0x10)
+	struct FCDCString MythicBossEliminatedPlayerTracker; // 0x530 (0x10)
+	struct FMulticastInlineDelegate MythicBossEliminatedPlayerEvent; // 0x540 (0x10)
+	struct FString MythicWeaponPlayer; // 0x550 (0x10)
+	struct FCDCString MythicWeaponPlayerTracker; // 0x560 (0x10)
+	struct FMulticastInlineDelegate MythicWeaponPlayerEvent; // 0x570 (0x10)
+	struct FString PlayerInfo; // 0x580 (0x10)
+	struct FCDCStringArray PlayerInfoTracker; // 0x590 (0x18)
+	struct FMulticastInlineDelegate PlayerInfoEvent; // 0x5a8 (0x10)
+};
+

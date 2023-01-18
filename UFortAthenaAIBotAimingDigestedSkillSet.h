@@ -1,0 +1,38 @@
+// Class /Script/FortniteAI.FortAthenaAIBotAimingDigestedSkillSet
+// Size: 0x708
+class UFortAthenaAIBotAimingDigestedSkillSet : public UFortAthenaAIBotDigestedSkillSet
+{
+	struct FDigestedFocusSetting DefaultFocusSetting; // 0x30 (0x68)
+	struct TArray<struct FDigestedFocusSetting> FocusSettings; // 0x98 (0x10)
+	struct FLookAtDigestedSetting LookAtSettings[0x4]; // 0xa8 (0x10) (ARRAY) 
+	bool bAllowScanAroundWhileSwimming; // 0xe8 (0x1)
+	unsigned char unreflected_e9[0x3]; // 0xe9 (0x3) 
+	float TrackingReactionTime; // 0xec (0x4)
+	float TrackingInterpTime; // 0xf0 (0x4)
+	float TrackingInterpTimeMultForGroundVehicles; // 0xf4 (0x4)
+	float TrackingInterpTimeMultForFlyingVehicles; // 0xf8 (0x4)
+	float MaxTrackingPredictionError; // 0xfc (0x4)
+	float MaxTrackingOffsetErrorMultiplier; // 0x100 (0x4)
+	float AdjustedTrackingOffsetErrorMultiplierAgainstAIs; // 0x104 (0x4)
+	float TrackingErrorUpdateInterval; // 0x108 (0x4)
+	float TrackingInAirVelocityThreshold; // 0x10c (0x4)
+	float TrackingInAirHeightDeltaThreshold; // 0x110 (0x4)
+	float TargetAcquisitionRate; // 0x114 (0x4)
+	float MaxDistanceEvaluationErrorRatio; // 0x118 (0x4)
+	float TargetingUpdateInterval; // 0x11c (0x4)
+	float TargetingUpdateIntervalMaxDeviation; // 0x120 (0x4)
+	float ReachLeashLimitToleranceDistance; // 0x124 (0x4)
+	bool bShootFloorTrapOnlyWhenHigherThanTrap; // 0x128 (0x1)
+	unsigned char unreflected_129[0x3]; // 0x129 (0x3) 
+	float TargetingRotationSpeedLimit; // 0x12c (0x4)
+	float TargetingRotationSnapThreshold; // 0x130 (0x4)
+	unsigned char unreflected_134[0x4]; // 0x134 (0x4) 
+	struct FDigestedWeaponAccuracy NoWeaponAccuracy; // 0x138 (0x320)
+	struct TArray<struct FDigestedWeaponAccuracyCategory> WeaponAccuracies; // 0x458 (0x10)
+	struct TArray<struct FDigestedTargetBasedAccuracyCategory> DigestedTargetBasedAccuracies; // 0x468 (0x10)
+	struct FDigestedTrackingOffsetModifiers TrackingOffsetModifiers; // 0x478 (0x120)
+	struct FDigestedAimingCircleSettings DefaultAimingCircleSettings; // 0x598 (0x160)
+	struct TWeakObjectPtr<class AFortWeapon> CachedWeaponUsedToCalculateAccuracy; // 0x6f8 (0x8)
+	unsigned char padding_700[0x8]; // 0x700 (0x8)
+};
+

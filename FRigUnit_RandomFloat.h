@@ -1,0 +1,16 @@
+// ScriptStruct /Script/ControlRig.RigUnit_RandomFloat
+// Size: 0x30
+struct FRigUnit_RandomFloat : FRigUnit_MathBase
+{
+	int Seed; // 0x8 (0x4)
+	float Minimum; // 0xc (0x4)
+	float Maximum; // 0x10 (0x4)
+	float Duration; // 0x14 (0x4)
+	float Result; // 0x18 (0x4)
+	float LastResult; // 0x1c (0x4)
+	int LastSeed; // 0x20 (0x4)
+	int BaseSeed; // 0x24 (0x4)
+	float TimeLeft; // 0x28 (0x4)
+	unsigned char padding_2c[0x4]; // 0x2c (0x4)
+};
+

@@ -1,0 +1,9 @@
+// VerseStruct /Verse/_Verse/VNI/Verse.tuple_L_Kchar_M_Kchar_M_5b_Kchar_5dlocalizable__value_R
+// Size: 0x70
+struct Ftuple_L_Kchar_M_Kchar_M_5b_Kchar_5dlocalizable__value_R
+{
+	unsigned char verse0x18E3F084Elem0_0[0x10]; // 0x0 (0x10) (UNHANDLED PROPERTY TYPE: VerseStringProperty UID: 0)
+	unsigned char verse0x7D844C3CElem1_10[0x10]; // 0x10 (0x10) (UNHANDLED PROPERTY TYPE: VerseStringProperty UID: 0)
+	unsigned char verse0x932BF92EElem2_20[0x50]; // 0x20 (0x50) (UNHANDLED PROPERTY TYPE: MapProperty UID: 0)
+};
+

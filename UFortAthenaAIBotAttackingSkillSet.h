@@ -1,0 +1,38 @@
+// Class /Script/FortniteAI.FortAthenaAIBotAttackingSkillSet
+// Size: 0x530
+class UFortAthenaAIBotAttackingSkillSet : public UFortAthenaAIBotSkillSet
+{
+	struct FScalableFloat MaxDistanceToEngageMelee; // 0x30 (0x28)
+	struct FScalableFloat MinDistanceToGiveUpMelee; // 0x58 (0x28)
+	struct FScalableFloat MaxDistanceToThrowMeleeAttack; // 0x80 (0x28)
+	struct FScalableFloat UseContinuousMeleeAttack; // 0xa8 (0x28)
+	struct FScalableFloat OnlyEngageMeleeAgainstThreatThatHasNoRangeWeapon; // 0xd0 (0x28)
+	struct FScalableFloat OnlyUsePickaxeAgainstGameParticipants; // 0xf8 (0x28)
+	struct FScalableFloat EnableWTFBehavior; // 0x120 (0x28)
+	struct FScalableFloat MinCooldownDelayBetweenMeleeAttackAttempts; // 0x148 (0x28)
+	struct FScalableFloat MaxCooldownDelayBetweenMeleeAttackAttempts; // 0x170 (0x28)
+	struct FGameplayTagQuery CombatMeleeTagQuery; // 0x198 (0x48)
+	struct FScalableFloat ExcludeReachingTargetInMeleeTime; // 0x1e0 (0x28)
+	struct FScalableFloat ExcludeReachingTargetMoveDistance; // 0x208 (0x28)
+	struct FScalableFloat MaxDistanceToConsiderAsAnAlternateTarget; // 0x230 (0x28)
+	struct FScalableFloat EnableAlternateTargetRequiredTags; // 0x258 (0x28)
+	struct FGameplayTagContainer AlternateTargetRequiredTags; // 0x280 (0x20)
+	struct FGameplayTagContainer ThrowableGameplayTags; // 0x2a0 (0x20)
+	struct FScalableFloat MinThrowableCount; // 0x2c0 (0x28)
+	struct FScalableFloat MaxThrowableCount; // 0x2e8 (0x28)
+	struct FScalableFloat ThrowableCooldownMin; // 0x310 (0x28)
+	struct FScalableFloat ThrowableCooldownMax; // 0x338 (0x28)
+	struct FScalableFloat ThrowableMinimumRange; // 0x360 (0x28)
+	struct FScalableFloat ThrowableEvaluatorActive; // 0x388 (0x28)
+	struct FScalableFloat RetreatMinHealthRange; // 0x3b0 (0x28)
+	struct FScalableFloat RetreatMaxHealthRange; // 0x3d8 (0x28)
+	struct FScalableFloat RetreatProbability; // 0x400 (0x28)
+	struct FScalableFloat RetreatRangeMin; // 0x428 (0x28)
+	struct FScalableFloat RetreatRangeMax; // 0x450 (0x28)
+	struct FScalableFloat RetreatMaxDuration; // 0x478 (0x28)
+	struct FVector RetreatPositionBoxExtent; // 0x4a0 (0x18)
+	struct FScalableFloat CautiousInvestigationEnabled; // 0x4b8 (0x28)
+	struct FScalableFloat TimeSinceLastStimToBeCautious; // 0x4e0 (0x28)
+	struct FScalableFloat CautiousInvestigationTimeMax; // 0x508 (0x28)
+};
+

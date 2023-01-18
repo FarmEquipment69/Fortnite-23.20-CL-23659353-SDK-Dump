@@ -1,0 +1,35 @@
+// Class /Script/FortniteGame.FortCowVehicle
+// Size: 0x1c60
+class AFortCowVehicle : public AFortSphericalVehicle
+{
+	class UFortLayeredAudioComponent* PhysicsAudioComponent; // 0x1bb8 (0x8)
+	class UNiagaraComponent* SpeedLinesNSComponent; // 0x1bc0 (0x8)
+	struct FName AudioParamOnGroundName; // 0x1bc8 (0x4)
+	struct FName AudioParamSpeedName; // 0x1bcc (0x4)
+	struct FName AudioParamInWaterName; // 0x1bd0 (0x4)
+	struct FCowVehicleMapRangeClamped SpeedMapRangeClamped; // 0x1bd4 (0x10)
+	bool bIsSquashing; // 0x1be4 (0x1)
+	unsigned char unreflected_1be5[0x3]; // 0x1be5 (0x3) 
+	float SquashTime; // 0x1be8 (0x4)
+	float MaxSquashTime; // 0x1bec (0x4)
+	float CurrentSquash; // 0x1bf0 (0x4)
+	float TargetSquash; // 0x1bf4 (0x4)
+	float ErrorToleranceImpactComparison; // 0x1bf8 (0x4)
+	float SquashSpeed; // 0x1bfc (0x4)
+	float CurrentSquashSpeed; // 0x1c00 (0x4)
+	float ImpactPointInterp; // 0x1c04 (0x4)
+	struct FCowVehicleImpactPointInterp* ImpactPointInterpData; // 0x1c08 (0x8)
+	float ForceNormalized; // 0x1c10 (0x4)
+	float ErrorToleranceSpringComparison; // 0x1c14 (0x4)
+	float PreviousSpeed; // 0x1c18 (0x4)
+	struct FCowVehicleMapRangeClamped PreviousSpeedMapRangeClamped; // 0x1c1c (0x10)
+	struct FCowVehicleFloatSpringInterp SquashFloatSpringInterp; // 0x1c2c (0xc)
+	class UMaterialInstanceDynamic* SquashMID; // 0x1c38 (0x8)
+	struct FName NSParamSpeedLinesThresholdName; // 0x1c40 (0x4)
+	struct FName NSParamSquashAmountName; // 0x1c44 (0x4)
+	struct FName NSRippleStartName; // 0x1c48 (0x4)
+	struct FName NSRippleLengthInterpName; // 0x1c4c (0x4)
+	struct FName NSUseWorldImpactPointName; // 0x1c50 (0x4)
+	unsigned char padding_1c54[0xc]; // 0x1c54 (0xc)
+};
+

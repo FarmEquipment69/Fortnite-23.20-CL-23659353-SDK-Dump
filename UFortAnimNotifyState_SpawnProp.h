@@ -1,0 +1,38 @@
+// Class /Script/FortniteGame.FortAnimNotifyState_SpawnProp
+// Size: 0x1e0
+class UFortAnimNotifyState_SpawnProp : public UAnimNotifyState
+{
+	struct TArray<struct TEnumAsByte<EFortCustomPartType>> AttachPartOverrides; // 0x30 (0x10)
+	struct FName SocketName; // 0x40 (0x4)
+	unsigned char unreflected_44[0x4]; // 0x44 (0x4) 
+	struct FVector LocationOffset; // 0x48 (0x18)
+	struct FRotator RotationOffset; // 0x60 (0x18)
+	struct FVector Scale; // 0x78 (0x18)
+	class UClass* ActorProp; // 0x90 (0x8)
+	class USkeletalMesh* SkeletalMeshProp; // 0x98 (0x8)
+	class UAnimationAsset* SkeletalMeshPropAnimation; // 0xa0 (0x8)
+	class UClass* SkeletalMeshPropAnimClass; // 0xa8 (0x8)
+	bool bInheritScale; // 0xb0 (0x1)
+	bool bAbsoluteScale; // 0xb1 (0x1)
+	bool bUseAttachParentBound; // 0xb2 (0x1)
+	bool bPropAnimLooping; // 0xb3 (0x1)
+	bool bSyncMontage; // 0xb4 (0x1)
+	bool bPrestreamTextures; // 0xb5 (0x1)
+	unsigned char unreflected_b6[0x2]; // 0xb6 (0x2) 
+	float PrestreamTextureDuration; // 0xb8 (0x4)
+	unsigned char unreflected_bc[0x4]; // 0xbc (0x4) 
+	class UStaticMesh* StaticMeshProp; // 0xc0 (0x8)
+	struct TArray<struct FEmotePropMaterialScalarParam*> PropMaterialScalarParams; // 0xc8 (0x10)
+	int PropId; // 0xd8 (0x4)
+	unsigned char unreflected_dc[0x4]; // 0xdc (0x4) 
+	struct FFortCosmeticOverlayMaterialData OverlayMaterials; // 0xe0 (0x50)
+	struct TWeakObjectPtr<class UAthenaCosmeticItemDefinition> VariantsCosmeticItemDef; // 0x130 (0x28)
+	bool bApplyVariantsToSpawnedItems; // 0x158 (0x1)
+	bool bApplyMeshSwappingVariants; // 0x159 (0x1)
+	bool bUseVariantsFromEmoteLeader; // 0x15a (0x1)
+	bool bTrackComponentPropInGC; // 0x15b (0x1)
+	unsigned char unreflected_15c[0x2c]; // 0x15c (0x2c) 
+	struct TMap<class UMeshComponent*, class UMeshComponent*> PersistComponents; // 0x188 (0x50)
+	unsigned char padding_1d8[0x8]; // 0x1d8 (0x8)
+};
+

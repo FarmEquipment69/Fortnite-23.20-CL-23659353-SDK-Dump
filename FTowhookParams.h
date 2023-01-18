@@ -1,0 +1,38 @@
+// ScriptStruct /Script/FortniteGame.TowhookParams
+// Size: 0xd0
+struct FTowhookParams
+{
+	float MaxCableLength; // 0x0 (0x4)
+	float MinCableLength; // 0x4 (0x4)
+	bool bUseSpring; // 0x8 (0x1)
+	bool bUseRope; // 0x9 (0x1)
+	bool bUseAsTractorBeam; // 0xa (0x1)
+	unsigned char unreflected_b[0x1]; // 0xb (0x1) 
+	float SpringStiffness; // 0xc (0x4)
+	float SpringDamping; // 0x10 (0x4)
+	float SpringMaxStiffnessForce; // 0x14 (0x4)
+	float SpringMaxStiffnessVelocity; // 0x18 (0x4)
+	float SpringDeformationRate; // 0x1c (0x4)
+	float RopeGive; // 0x20 (0x4)
+	float RopeBreakForce; // 0x24 (0x4)
+	float RopeBreakLength; // 0x28 (0x4)
+	float RopeYankForce; // 0x2c (0x4)
+	float ExtendSpeedKmh; // 0x30 (0x4)
+	float ContractSpeedKmh; // 0x34 (0x4)
+	bool bApplySpringToSelf; // 0x38 (0x1)
+	bool bApplySpringToOther; // 0x39 (0x1)
+	bool bTakeUpSlack; // 0x3a (0x1)
+	bool bEnableParentDominates; // 0x3b (0x1)
+	bool bAttachToOwnersVehicle; // 0x3c (0x1)
+	unsigned char unreflected_3d[0x3]; // 0x3d (0x3) 
+	float TractorBeamRestLength; // 0x40 (0x4)
+	float TractorBeamUpSpringStiffness; // 0x44 (0x4)
+	float TractorBeamSideSpringStiffness; // 0x48 (0x4)
+	float TractorBeamUpSpringDamping; // 0x4c (0x4)
+	float TractorBeamSideSpringDamping; // 0x50 (0x4)
+	float TractorBeamMaxStiffnessTime; // 0x54 (0x4)
+	struct FScalableFloat TractorBeamHeightModifierLength; // 0x58 (0x28)
+	struct FScalableFloat TractorBeamHeightModifierStartPositionExtraDistance; // 0x80 (0x28)
+	struct FScalableFloat TractorBeamHeightScalingForceMagnitude; // 0xa8 (0x28)
+};
+

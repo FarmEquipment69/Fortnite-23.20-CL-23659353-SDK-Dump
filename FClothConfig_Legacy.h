@@ -1,0 +1,37 @@
+// ScriptStruct /Script/ClothingSystemRuntimeCommon.ClothConfig_Legacy
+// Size: 0x130
+struct FClothConfig_Legacy
+{
+	enum EClothingWindMethod_Legacy WindMethod; // 0x0 (0x1)
+	unsigned char unreflected_1[0x3]; // 0x1 (0x3) 
+	struct FClothConstraintSetup_Legacy VerticalConstraintConfig; // 0x4 (0x10)
+	struct FClothConstraintSetup_Legacy HorizontalConstraintConfig; // 0x14 (0x10)
+	struct FClothConstraintSetup_Legacy BendConstraintConfig; // 0x24 (0x10)
+	struct FClothConstraintSetup_Legacy ShearConstraintConfig; // 0x34 (0x10)
+	float SelfCollisionRadius; // 0x44 (0x4)
+	float SelfCollisionStiffness; // 0x48 (0x4)
+	float SelfCollisionCullScale; // 0x4c (0x4)
+	struct FVector Damping; // 0x50 (0x18)
+	float Friction; // 0x68 (0x4)
+	float WindDragCoefficient; // 0x6c (0x4)
+	float WindLiftCoefficient; // 0x70 (0x4)
+	unsigned char unreflected_74[0x4]; // 0x74 (0x4) 
+	struct FVector LinearDrag; // 0x78 (0x18)
+	struct FVector AngularDrag; // 0x90 (0x18)
+	struct FVector LinearInertiaScale; // 0xa8 (0x18)
+	struct FVector AngularInertiaScale; // 0xc0 (0x18)
+	struct FVector CentrifugalInertiaScale; // 0xd8 (0x18)
+	float SolverFrequency; // 0xf0 (0x4)
+	float StiffnessFrequency; // 0xf4 (0x4)
+	float GravityScale; // 0xf8 (0x4)
+	unsigned char unreflected_fc[0x4]; // 0xfc (0x4) 
+	struct FVector GravityOverride; // 0x100 (0x18)
+	bool bUseGravityOverride; // 0x118 (0x1)
+	unsigned char unreflected_119[0x3]; // 0x119 (0x3) 
+	float TetherStiffness; // 0x11c (0x4)
+	float TetherLimit; // 0x120 (0x4)
+	float CollisionThickness; // 0x124 (0x4)
+	float AnimDriveSpringStiffness; // 0x128 (0x4)
+	float AnimDriveDamperStiffness; // 0x12c (0x4)
+};
+

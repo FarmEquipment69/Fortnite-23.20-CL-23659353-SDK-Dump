@@ -1,0 +1,15 @@
+// ScriptStruct /Script/Engine.ExpressionInput
+// Size: 0x28
+struct FExpressionInput
+{
+	class UMaterialExpression* Expression; // 0x0 (0x8)
+	int OutputIndex; // 0x8 (0x4)
+	struct FName InputName; // 0xc (0x4)
+	int Mask; // 0x10 (0x4)
+	int MaskR; // 0x14 (0x4)
+	int MaskG; // 0x18 (0x4)
+	int MaskB; // 0x1c (0x4)
+	int MaskA; // 0x20 (0x4)
+	unsigned char padding_24[0x4]; // 0x24 (0x4)
+};
+

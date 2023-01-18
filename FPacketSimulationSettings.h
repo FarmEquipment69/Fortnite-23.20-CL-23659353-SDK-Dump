@@ -1,0 +1,19 @@
+// ScriptStruct /Script/Engine.PacketSimulationSettings
+// Size: 0x34
+struct FPacketSimulationSettings
+{
+	int PktLoss; // 0x0 (0x4)
+	int PktLossMaxSize; // 0x4 (0x4)
+	int PktLossMinSize; // 0x8 (0x4)
+	int PktOrder; // 0xc (0x4)
+	int PktDup; // 0x10 (0x4)
+	int PktLag; // 0x14 (0x4)
+	int PktLagVariance; // 0x18 (0x4)
+	int PktLagMin; // 0x1c (0x4)
+	int PktLagMax; // 0x20 (0x4)
+	int PktIncomingLagMin; // 0x24 (0x4)
+	int PktIncomingLagMax; // 0x28 (0x4)
+	int PktIncomingLoss; // 0x2c (0x4)
+	int PktJitter; // 0x30 (0x4)
+};
+

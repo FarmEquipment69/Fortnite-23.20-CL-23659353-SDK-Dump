@@ -1,0 +1,36 @@
+// ScriptStruct /Script/FortniteGame.FortAthenaLoadout
+// Size: 0x178
+struct FFortAthenaLoadout
+{
+	struct FString BannerIconId; // 0x10 (0x10)
+	struct FString BannerColorId; // 0x20 (0x10)
+	class UAthenaSkyDiveContrailItemDefinition* SkyDiveContrail; // 0x30 (0x8)
+	class UAthenaGliderItemDefinition* Glider; // 0x38 (0x8)
+	class UAthenaPickaxeItemDefinition* Pickaxe; // 0x40 (0x8)
+	bool bIsDefaultCharacter; // 0x48 (0x1)
+	unsigned char unreflected_49[0x7]; // 0x49 (0x7) 
+	class UAthenaCharacterItemDefinition* Character; // 0x50 (0x8)
+	struct TArray<struct FMcpVariantChannelInfo> CharacterVariantChannels; // 0x58 (0x10)
+	bool bForceUpdateVariants; // 0x68 (0x1)
+	unsigned char unreflected_69[0x7]; // 0x69 (0x7) 
+	class UAthenaHatItemDefinition* Hat; // 0x70 (0x8)
+	class UAthenaBackpackItemDefinition* Backpack; // 0x78 (0x8)
+	class UAthenaLoadingScreenItemDefinition* LoadingScreen; // 0x80 (0x8)
+	class UAthenaBattleBusItemDefinition* BattleBus; // 0x88 (0x8)
+	class UAthenaVehicleCosmeticItemDefinition* VehicleDecoration; // 0x90 (0x8)
+	class UAthenaCallingCardItemDefinition* CallingCard; // 0x98 (0x8)
+	class UAthenaMapMarkerItemDefinition* MapMarker; // 0xa0 (0x8)
+	struct TArray<class UAthenaDanceItemDefinition*> Dances; // 0xa8 (0x10)
+	class UAthenaVictoryPoseItemDefinition* VictoryPose; // 0xb8 (0x8)
+	class UAthenaMusicPackItemDefinition* MusicPack; // 0xc0 (0x8)
+	class UAthenaItemWrapDefinition* ItemWrapOverride; // 0xc8 (0x8)
+	struct TArray<class UAthenaItemWrapDefinition*> ItemWraps; // 0xd0 (0x10)
+	class UAthenaCharmItemDefinition* CharmOverride; // 0xe0 (0x8)
+	struct TArray<class UAthenaCharmItemDefinition*> Charms; // 0xe8 (0x10)
+	class UAthenaPetItemDefinition* PetSkin; // 0xf8 (0x8)
+	struct TArray<class UFortApparelItemDefinition*> ApparelArray; // 0x100 (0x10)
+	unsigned char unreflected_110[0x8]; // 0x110 (0x8) 
+	class UFortMcpProfileAthena* CachedProfileSource; // 0x118 (0x8)
+	unsigned char padding_120[0x58]; // 0x120 (0x58)
+};
+

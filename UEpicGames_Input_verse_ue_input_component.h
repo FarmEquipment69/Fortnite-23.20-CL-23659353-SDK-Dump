@@ -1,0 +1,88 @@
+// VerseClass /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component
+// Size: 0x650
+class UEpicGames_Input_verse_ue_input_component : public UVerseUEInputComponentBase
+{
+	unsigned char unreflected_458[0x18]; // 0x458 (0x18) 
+	unsigned char verse0x7C4A751DL2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRAddActionBindingLNKcharMNinputeventMNtupleLRTvoidR_470[0x10]; // 0x470 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0xA0CE540BL2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRAddActionMappingLNKcharMNKcharMNKversekeyR_460[0x10]; // 0x460 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char unreflected_470[0xb0]; // 0x470 (0xb0) 
+	unsigned char verse0x990BA955L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRAddActionMappingAndBindingLNKcharMNKcharMNKversekeyMNinputeventMNtupleLRTvoidR_520[0x10]; // 0x520 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0xC0AAB7CBL2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRAddAxisBindingLNKcharMNQLfloatTvoidRR_490[0x10]; // 0x490 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0x90867C45L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRAddAxisMappingLNKcharMNKcharMNKversekeyMNQfloatR_480[0x10]; // 0x480 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char unreflected_490[0xb0]; // 0x490 (0xb0) 
+	unsigned char verse0x2D555026L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRAddAxisMappingAndBindingLNKcharMNKcharMNKversekeyMNQfloatMNQLfloatTvoidRR_540[0x10]; // 0x540 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0x35F32F07L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRClearActionMappings_4d0[0x10]; // 0x4d0 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0x35A10119L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRClearAxisMappings_4e0[0x10]; // 0x4e0 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0x961F7CD2L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRClearInputBindings_4f0[0x10]; // 0x4f0 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char unreflected_500[0x50]; // 0x500 (0x50) 
+	unsigned char verse0xC3127334L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRClearInputMappingsAndBindings_550[0x10]; // 0x550 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0x84FE24F8L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRGetAxisValueLNKcharR_500[0x10]; // 0x500 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0x6DA54EE3L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRRemoveActionBindingLNKcharMNinputeventR_4b0[0x10]; // 0x4b0 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0xFA4BD56FL2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRRemoveActionMappingLNKcharR_4a0[0x10]; // 0x4a0 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char unreflected_4b0[0x80]; // 0x4b0 (0x80) 
+	unsigned char verse0xE39C826CL2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRRemoveActionMappingAndBindingLNKcharMNinputeventR_530[0x10]; // 0x530 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char verse0x983150DCL2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRRemoveAxisBindingLNKcharR_4c0[0x10]; // 0x4c0 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char unreflected_4d0[0x40]; // 0x4d0 (0x40) 
+	unsigned char verse0x42760BD5WaitForActionLNverseueinputcomponentMNKcharMNinputeventR_510[0x10]; // 0x510 (0x10) (UNHANDLED PROPERTY TYPE: VerseFunctionProperty UID: 0)
+	unsigned char padding_520[0x130]; // 0x520 (0x130)
+
+	/* Functions */
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component.WaitForAction_L_Nverse__ue__input__component_M_N_Kchar_M_Ninput__event_R (Has no native function)
+	class UConcurrency_task* WaitForActionLNverseueinputcomponentMNKcharMNinputeventR(class UConcurrency_task*& verse0xC1E81372CallingTask, int64_t& verse0xA3A00DDBCallerResumeState, int64_t& verse0x2AC0E4D8CallerCancelState, struct Ftuple_Lverse__ue__input__component_M_Kchar_Minput__event_R& verse0xB2CDDD72Argument); // (Public | HasOutParms | BlueprintCallable)
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component._L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RRemoveAxisBinding_L_N_Kchar_R (Underlying native function: _L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RRemoveAxisBinding_L_N_Kchar_R 0x6a23810)
+	void L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRRemoveAxisBindingLNKcharR(); // (Native | Public | BlueprintCallable)
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component._L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RRemoveActionMappingAndBinding_L_N_Kchar_M_Ninput__event_R (Has no native function)
+	void L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRRemoveActionMappingAndBindingLNKcharMNinputeventR(struct Ftuple_L_Kchar_Minput__event_R& verse0xB2CDDD72Argument, enum EVerseTrue& $InvokeSureResultDummy0, ); // (Public | HasDefaults | BlueprintCallable)
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component._L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RRemoveActionMapping_L_N_Kchar_R (Underlying native function: _L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RRemoveActionMapping_L_N_Kchar_R 0x6a23808)
+	void L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRRemoveActionMappingLNKcharR(); // (Native | Public | BlueprintCallable)
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component._L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RRemoveActionBinding_L_N_Kchar_M_Ninput__event_R (Underlying native function: _L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RRemoveActionBinding_L_N_Kchar_M_Ninput__event_R 0x6a23800)
+	void L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRRemoveActionBindingLNKcharMNinputeventR(struct Ftuple_L_Kchar_Minput__event_R& verse0xB2CDDD72Argument); // (Native | Public | BlueprintCallable)
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component._L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RGetAxisValue_L_N_Kchar_R (Underlying native function: _L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RGetAxisValue_L_N_Kchar_R 0x6a237f8)
+	void L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRGetAxisValueLNKcharR(); // (Native | Public | HasOutParms | BlueprintCallable)
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component._L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RClearInputMappingsAndBindings (Has no native function)
+	void L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRClearInputMappingsAndBindings(struct Ftuple_L_R& verse0xB2CDDD72Argument, enum EVerseTrue& $InvokeSureResultDummy0, ); // (Public | HasDefaults | BlueprintCallable)
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component._L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RClearInputBindings (Underlying native function: _L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RClearInputBindings 0x6a237f0)
+	void L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRClearInputBindings(struct Ftuple_L_R& verse0xB2CDDD72Argument); // (Native | Public | BlueprintCallable)
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component._L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RClearAxisMappings (Underlying native function: _L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RClearAxisMappings 0x6a237e8)
+	void L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRClearAxisMappings(struct Ftuple_L_R& verse0xB2CDDD72Argument); // (Native | Public | BlueprintCallable)
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component._L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RClearActionMappings (Underlying native function: _L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RClearActionMappings 0x6a237e0)
+	void L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRClearActionMappings(struct Ftuple_L_R& verse0xB2CDDD72Argument); // (Native | Public | BlueprintCallable)
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component._L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RAddAxisMappingAndBinding_L_N_Kchar_M_N_Kchar_M_N_Kverse__key_M_N_Qfloat_M_N_Q_Lfloat_Tvoid_R_R (Has no native function)
+	void L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRAddAxisMappingAndBindingLNKcharMNKcharMNKversekeyMNQfloatMNQLfloatTvoidRR(struct Ftuple_L_Kchar_M_Kchar_M_Kverse__key_M_Qfloat_M_Q_Lfloat_Tvoid_R_R& verse0xB2CDDD72Argument, enum EVerseTrue& $InvokeSureResultDummy0, ); // (Public | HasDefaults | BlueprintCallable)
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component._L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RAddAxisMapping_L_N_Kchar_M_N_Kchar_M_N_Kverse__key_M_N_Qfloat_R (Underlying native function: _L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RAddAxisMapping_L_N_Kchar_M_N_Kchar_M_N_Kverse__key_M_N_Qfloat_R 0x6a237d8)
+	void L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRAddAxisMappingLNKcharMNKcharMNKversekeyMNQfloatR(struct Ftuple_L_Kchar_M_Kchar_M_Kverse__key_M_Qfloat_R& verse0xB2CDDD72Argument); // (Native | Public | BlueprintCallable)
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component._L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RAddAxisBinding_L_N_Kchar_M_N_Q_Lfloat_Tvoid_R_R (Underlying native function: _L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RAddAxisBinding_L_N_Kchar_M_N_Q_Lfloat_Tvoid_R_R 0x6a237d0)
+	void L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRAddAxisBindingLNKcharMNQLfloatTvoidRR(struct Ftuple_L_Kchar_M_Q_Lfloat_Tvoid_R_R& verse0xB2CDDD72Argument); // (Native | Public | BlueprintCallable)
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component._L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RAddActionMappingAndBinding_L_N_Kchar_M_N_Kchar_M_N_Kverse__key_M_Ninput__event_M_Ntuple_L_R_Tvoid_R (Has no native function)
+	void L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRAddActionMappingAndBindingLNKcharMNKcharMNKversekeyMNinputeventMNtupleLRTvoidR(struct Ftuple_L_Kchar_M_Kchar_M_Kverse__key_Minput__event_Mtuple_L_R_Tvoid_R& verse0xB2CDDD72Argument, enum EVerseTrue& $InvokeSureResultDummy0, ); // (Public | HasDefaults | BlueprintCallable)
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component._L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RAddActionMapping_L_N_Kchar_M_N_Kchar_M_N_Kverse__key_R (Underlying native function: _L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RAddActionMapping_L_N_Kchar_M_N_Kchar_M_N_Kverse__key_R 0x6a237c8)
+	void L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRAddActionMappingLNKcharMNKcharMNKversekeyR(struct Ftuple_L_Kchar_M_Kchar_M_Kverse__key_R& verse0xB2CDDD72Argument); // (Native | Public | BlueprintCallable)
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component._L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RAddActionBinding_L_N_Kchar_M_Ninput__event_M_Ntuple_L_R_Tvoid_R (Underlying native function: _L_2fUnrealEngine_2ecom_2fEpicGames_2fInput_2fverse__ue__input__component_N_RAddActionBinding_L_N_Kchar_M_Ninput__event_M_Ntuple_L_R_Tvoid_R 0x6a237c0)
+	void L2fUnrealEngine2ecom2fEpicGames2fInput2fverseueinputcomponentNRAddActionBindingLNKcharMNinputeventMNtupleLRTvoidR(struct Ftuple_L_Kchar_Minput__event_Mtuple_L_R_Tvoid_R& verse0xB2CDDD72Argument); // (Native | Public | BlueprintCallable)
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component.$InitInstance (Has no native function)
+	void $InitInstance(); // ()
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component.$Block (Has no native function)
+	void $Block(); // ()
+
+	// Function /EpicGamesEngine/_Verse/VNI/EpicGamesEngine.EpicGames_Input_verse_ue_input_component.$InitCDO (Has no native function)
+	void $InitCDO(); // ()
+};
+

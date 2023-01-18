@@ -1,0 +1,9 @@
+// ScriptStruct /Script/CoreUObject.Rotator
+// Size: 0x18
+struct FRotator
+{
+	double Pitch; // 0x0 (0x8)
+	double Yaw; // 0x8 (0x8)
+	double Roll; // 0x10 (0x8)
+};
+

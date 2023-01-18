@@ -1,0 +1,37 @@
+// Class /Script/McpProfileSys.McpProfileGroup
+// Size: 0x280
+class UMcpProfileGroup : public UObject
+{
+	unsigned char unreflected_28[0xb4]; // 0x28 (0xb4) 
+	int DelayMcpResults; // 0xdc (0x4)
+	int WeeklyIntervalStartDay; // 0xe0 (0x4)
+	unsigned char unreflected_e4[0x4]; // 0xe4 (0x4) 
+	struct TArray<struct FProfileEntry> ProfileList; // 0xe8 (0x10)
+	unsigned char unreflected_f8[0x8]; // 0xf8 (0x8) 
+	struct FString PlayerName; // 0x100 (0x10)
+	bool bIsServer; // 0x110 (0x1)
+	unsigned char unreflected_111[0x7]; // 0x111 (0x7) 
+	struct FString ProfileNotificationsStompTopic; // 0x118 (0x10)
+	unsigned char unreflected_128[0x50]; // 0x128 (0x50) 
+	struct FString LastMcpVersion; // 0x178 (0x10)
+	struct FString LastContentVersion; // 0x188 (0x10)
+	struct FString LastMinBuild; // 0x198 (0x10)
+	struct FTimespan* LocalTimeOffset; // 0x1a8 (0x8)
+	unsigned char unreflected_1b0[0x8]; // 0x1b0 (0x8) 
+	struct FString LockCode; // 0x1b8 (0x10)
+	struct TArray<class UMcpProfile*> LockedProfiles; // 0x1c8 (0x10)
+	struct FString LockedProfilesString; // 0x1d8 (0x10)
+	int ProfileWriteLockTimeoutSecs; // 0x1e8 (0x4)
+	bool bSubscribedToNotifications; // 0x1ec (0x1)
+	unsigned char unreflected_1ed[0x3]; // 0x1ed (0x3) 
+	struct FString ApplyStashEndPoint; // 0x1f0 (0x10)
+	unsigned char unreflected_200[0x8]; // 0x200 (0x8) 
+	bool bSendProfileCommandRevisions; // 0x208 (0x1)
+	bool bAsyncParseProfileUpdates; // 0x209 (0x1)
+	unsigned char unreflected_20a[0x56]; // 0x20a (0x56) 
+	int MaxChangesToForwardInUpdate; // 0x260 (0x4)
+	unsigned char unreflected_264[0x4]; // 0x264 (0x4) 
+	struct TArray<struct FString> ForwardToClientExclusions; // 0x268 (0x10)
+	unsigned char padding_278[0x8]; // 0x278 (0x8)
+};
+

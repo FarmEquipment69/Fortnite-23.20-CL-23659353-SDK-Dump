@@ -1,0 +1,37 @@
+// ScriptStruct /Script/FortniteGame.ExponentialHeightFogWeatherData
+// Size: 0x128
+struct FExponentialHeightFogWeatherData
+{
+	unsigned char bOverrideFogDensity; // 0x0 (0x1)
+	unsigned char bOverrideFogHeightFalloff; // 0x0 (0x1)
+	unsigned char bOverrideFogMaxOpacity; // 0x0 (0x1)
+	unsigned char bOverrideFogStartDistance; // 0x0 (0x1)
+	unsigned char bOverrideFogDirectionalInscatteringExponent; // 0x0 (0x1)
+	unsigned char bOverrideFogDirectionalInscatteringStartDistance; // 0x0 (0x1)
+	unsigned char bOverrideFogDirectionalInscatteringColor; // 0x0 (0x1)
+	unsigned char bOverrideFogInscatteringColor; // 0x0 (0x1)
+	unsigned char bOverrideFogScatteringDistribution; // 0x1 (0x1)
+	unsigned char bOverrideFogAlbedo; // 0x1 (0x1)
+	unsigned char bOverrideFogExtinctionScale; // 0x1 (0x1)
+	unsigned char bOverrideFogDistance; // 0x1 (0x1)
+	unsigned char bOverrideSecondFogDensity; // 0x1 (0x1)
+	unsigned char bOverrideSecondFogHeightFalloff; // 0x1 (0x1)
+	unsigned char bOverrideSecondHeightFogOffset; // 0x1 (0x1)
+	unsigned char unreflected_2[0x6]; // 0x2 (0x6) 
+	struct FFortTimeOfDayCurve_Float FogDensity; // 0x8 (0x10)
+	struct FFortTimeOfDayCurve_Float FogHeightFalloff; // 0x18 (0x10)
+	struct FFortTimeOfDayCurve_Float FogMaxOpacity; // 0x28 (0x10)
+	struct FFortTimeOfDayCurve_Float FogStartDistance; // 0x38 (0x10)
+	struct FFortTimeOfDayCurve_Float FogDirectionalInscatteringExponent; // 0x48 (0x10)
+	struct FFortTimeOfDayCurve_Float FogDirectionalInscatteringStartDistance; // 0x58 (0x10)
+	struct FFortTimeOfDayCurve_LinearColor FogDirectionalInscatteringColor; // 0x68 (0x20)
+	struct FFortTimeOfDayCurve_LinearColor FogInscatteringColor; // 0x88 (0x20)
+	struct FFortTimeOfDayCurve_Float FogScatteringDistribution; // 0xa8 (0x10)
+	struct FFortTimeOfDayCurve_LinearColor FogAlbedo; // 0xb8 (0x20)
+	struct FFortTimeOfDayCurve_Float FogExtinctionScale; // 0xd8 (0x10)
+	struct FFortTimeOfDayCurve_Float FogDistance; // 0xe8 (0x10)
+	struct FFortTimeOfDayCurve_Float SecondFogDensity; // 0xf8 (0x10)
+	struct FFortTimeOfDayCurve_Float SecondFogHeightFalloff; // 0x108 (0x10)
+	struct FFortTimeOfDayCurve_Float SecondHeightFogOffset; // 0x118 (0x10)
+};
+

@@ -1,0 +1,19 @@
+// ScriptStruct /Script/Serialization.StructSerializerNumericTestStruct
+// Size: 0x30
+struct FStructSerializerNumericTestStruct
+{
+	int8_t Int8; // 0x0 (0x1)
+	unsigned char unreflected_1[0x1]; // 0x1 (0x1) 
+	int16_t Int16; // 0x2 (0x2)
+	int int32; // 0x4 (0x4)
+	int64_t Int64; // 0x8 (0x8)
+	unsigned char uint8; // 0x10 (0x1)
+	unsigned char unreflected_11[0x1]; // 0x11 (0x1) 
+	uint16_t uint16; // 0x12 (0x2)
+	uint32_t uint32; // 0x14 (0x4)
+	uint64_t UInt64; // 0x18 (0x8)
+	float float; // 0x20 (0x4)
+	unsigned char unreflected_24[0x4]; // 0x24 (0x4) 
+	double Double; // 0x28 (0x8)
+};
+

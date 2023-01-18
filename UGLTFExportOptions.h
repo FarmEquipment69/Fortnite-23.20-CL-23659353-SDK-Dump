@@ -1,0 +1,51 @@
+// Class /Script/GLTFExporter.GLTFExportOptions
+// Size: 0xb0
+class UGLTFExportOptions : public UObject
+{
+	float ExportUniformScale; // 0x28 (0x4)
+	bool bExportPreviewMesh; // 0x2c (0x1)
+	bool bStrictCompliance; // 0x2d (0x1)
+	bool bSkipNearDefaultValues; // 0x2e (0x1)
+	bool bIncludeGeneratorVersion; // 0x2f (0x1)
+	bool bExportProxyMaterials; // 0x30 (0x1)
+	bool bExportUnlitMaterials; // 0x31 (0x1)
+	bool bExportClearCoatMaterials; // 0x32 (0x1)
+	bool bExportExtraBlendModes; // 0x33 (0x1)
+	enum EGLTFMaterialBakeMode BakeMaterialInputs; // 0x34 (0x1)
+	enum EGLTFMaterialBakeSizePOT DefaultMaterialBakeSize; // 0x35 (0x1)
+	struct TEnumAsByte<TextureFilter> DefaultMaterialBakeFilter; // 0x36 (0x1)
+	struct TEnumAsByte<TextureAddress> DefaultMaterialBakeTiling; // 0x37 (0x1)
+	struct TMap<enum EGLTFMaterialPropertyGroup, struct FGLTFOverrideMaterialBakeSettings> DefaultInputBakeSettings; // 0x38 (0x50)
+	int DefaultLevelOfDetail; // 0x88 (0x4)
+	bool bExportVertexColors; // 0x8c (0x1)
+	bool bExportVertexSkinWeights; // 0x8d (0x1)
+	bool bUseMeshQuantization; // 0x8e (0x1)
+	bool bExportLevelSequences; // 0x8f (0x1)
+	bool bExportAnimationSequences; // 0x90 (0x1)
+	bool bExportPlaybackSettings; // 0x91 (0x1)
+	enum EGLTFTextureImageFormat TextureImageFormat; // 0x92 (0x1)
+	unsigned char unreflected_93[0x1]; // 0x93 (0x1) 
+	int TextureImageQuality; // 0x94 (0x4)
+	int NoLossyImageFormatFor; // 0x98 (0x4)
+	bool bExportTextureTransforms; // 0x9c (0x1)
+	bool bExportLightmaps; // 0x9d (0x1)
+	enum EGLTFTextureHDREncoding TextureHDREncoding; // 0x9e (0x1)
+	bool bAdjustNormalmaps; // 0x9f (0x1)
+	bool bExportHiddenInGame; // 0xa0 (0x1)
+	unsigned char unreflected_a1[0x3]; // 0xa1 (0x3) 
+	int ExportLights; // 0xa4 (0x4)
+	bool bExportCameras; // 0xa8 (0x1)
+	bool bExportHDRIBackdrops; // 0xa9 (0x1)
+	bool bExportSkySpheres; // 0xaa (0x1)
+	enum EGLTFVariantSetsMode VariantSetsMode; // 0xab (0x1)
+	enum EGLTFMaterialVariantMode ExportMaterialVariants; // 0xac (0x1)
+	bool bExportMeshVariants; // 0xad (0x1)
+	bool bExportVisibilityVariants; // 0xae (0x1)
+	unsigned char padding_af[0x1]; // 0xaf (0x1)
+
+	/* Functions */
+
+	// Function /Script/GLTFExporter.GLTFExportOptions.ResetToDefault (Underlying native function: ResetToDefault 0x8005950)
+	void ResetToDefault(); // (Final | Native | Public | BlueprintCallable)
+};
+

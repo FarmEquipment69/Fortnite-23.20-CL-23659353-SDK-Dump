@@ -1,0 +1,12 @@
+// ScriptStruct /Script/Engine.ExpressionOutput
+// Size: 0x18
+struct FExpressionOutput
+{
+	struct FName OutputName; // 0x0 (0x4)
+	int Mask; // 0x4 (0x4)
+	int MaskR; // 0x8 (0x4)
+	int MaskG; // 0xc (0x4)
+	int MaskB; // 0x10 (0x4)
+	int MaskA; // 0x14 (0x4)
+};
+

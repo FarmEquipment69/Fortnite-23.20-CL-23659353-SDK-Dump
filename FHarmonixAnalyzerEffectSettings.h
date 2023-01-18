@@ -1,0 +1,35 @@
+// ScriptStruct /Script/HmxAudio.HarmonixAnalyzerEffectSettings
+// Size: 0xa8
+struct FHarmonixAnalyzerEffectSettings
+{
+	struct FName InstanceName; // 0x0 (0x4)
+	bool VuEnabled; // 0x4 (0x1)
+	unsigned char unreflected_5[0x3]; // 0x5 (0x3) 
+	float VuAvgWindowMs; // 0x8 (0x4)
+	float VuPeakHoldMs; // 0xc (0x4)
+	struct FHarmonixAnalyzerOutputSettings VuOutputSettings; // 0x10 (0x10)
+	bool DrEnabled; // 0x20 (0x1)
+	unsigned char unreflected_21[0x3]; // 0x21 (0x3) 
+	float DrHighRisingAlpha; // 0x24 (0x4)
+	float DrHighFallingAlpha; // 0x28 (0x4)
+	float DrLowRisingAlpha; // 0x2c (0x4)
+	float DrLowFallingAlpha; // 0x30 (0x4)
+	int DrWindowSize; // 0x34 (0x4)
+	bool DrFilterResult; // 0x38 (0x1)
+	unsigned char unreflected_39[0x3]; // 0x39 (0x3) 
+	float DrFilterCutoff; // 0x3c (0x4)
+	struct FHarmonixAnalyzerFFTSettings FftSettings; // 0x40 (0x2c)
+	bool FilterBankEnabled; // 0x6c (0x1)
+	unsigned char unreflected_6d[0x3]; // 0x6d (0x3) 
+	struct TArray<struct FHarmonixFilterBankBandSettings> FilterBankBands; // 0x70 (0x10)
+	bool SemitonesEnabled; // 0x80 (0x1)
+	unsigned char unreflected_81[0x3]; // 0x81 (0x3) 
+	int SemitonesMidiNoteMin; // 0x84 (0x4)
+	int SemiTonesMidiNoteRange; // 0x88 (0x4)
+	struct FHarmonixAnalyzerOutputSettings SemiTonesOutputSettings; // 0x8c (0x10)
+	bool WaveformEnabled; // 0x9c (0x1)
+	unsigned char unreflected_9d[0x3]; // 0x9d (0x3) 
+	int WaveformNumSamplesHeld; // 0xa0 (0x4)
+	int WaveformNumSamplesPerSecond; // 0xa4 (0x4)
+};
+

@@ -1,0 +1,86 @@
+// Class /Script/FortniteGame.FortAthenaMutator_Heist
+// Size: 0xb50
+class AFortAthenaMutator_Heist : public AFortAthenaMutator
+{
+	class UFortAthenaExitCraftInfo* ExitCraftInfo; // 0x330 (0x8)
+	struct TArray<struct FHeistExitCraftSpawnData> HeistExitCraftSpawnData; // 0x338 (0x10)
+	struct TArray<struct FHeistBlingDropSpawnData> HeistBlingDropSpawnData; // 0x348 (0x10)
+	class USoundCue* HeistVictorySoundCue; // 0x358 (0x8)
+	struct FScalableFloat SpawnExitCraftInitialDelay; // 0x360 (0x28)
+	struct FScalableFloat BlingCarryingEnemiesVisibleTime; // 0x388 (0x28)
+	unsigned char unreflected_3b0[0x8]; // 0x3b0 (0x8) 
+	struct TArray<struct FHeistExitCraftData> SpawnedExitCraftList; // 0x3b8 (0x10)
+	bool bCurrExitCraftDeparted; // 0x3c8 (0x1)
+	unsigned char unreflected_3c9[0x7]; // 0x3c9 (0x7) 
+	struct TArray<class AFortPlayerPawnAthena*> ExitCraftOverlappingPawns; // 0x3d0 (0x10)
+	float SpawnExitCraftTime; // 0x3e0 (0x4)
+	int CurrExitCraftIndexToSpawn; // 0x3e4 (0x4)
+	float SupplyDropStartingAngle; // 0x3e8 (0x4)
+	float ExitCraftStartingAngle; // 0x3ec (0x4)
+	int CurrBlingSupplyDropIndexHandled; // 0x3f0 (0x4)
+	unsigned char unreflected_3f4[0x4]; // 0x3f4 (0x4) 
+	struct TArray<int> RemainingExitCraftSpawnIndexes; // 0x3f8 (0x10)
+	struct TArray<int> RemainingSupplyDropSpawnIndexes; // 0x408 (0x10)
+	int NumUnspawnedExitCrafts; // 0x418 (0x4)
+	int NumSpawnedExitCrafts; // 0x41c (0x4)
+	int NumDepartedExitCrafts; // 0x420 (0x4)
+	unsigned char unreflected_424[0x4]; // 0x424 (0x4) 
+	struct TArray<int> NumPlayersAliveOnDeparture; // 0x428 (0x10)
+	int JewelsLostToStorm; // 0x438 (0x4)
+	int SafesLostToStorm; // 0x43c (0x4)
+	struct TMap<unsigned char, struct FHeistTeamHoldingJewelInfo> JewelHeldByTeamMap; // 0x440 (0x50)
+	struct FGameplayTag BlingTrackingCategoryTag; // 0x490 (0x4)
+	struct FGameplayTag SafeSupplyDropTag; // 0x494 (0x4)
+	struct FGameplayTag BlingItemTag; // 0x498 (0x4)
+	struct FGameplayTag CarryingBlingItemTag; // 0x49c (0x4)
+	struct FGameplayTag ExitCraftTag; // 0x4a0 (0x4)
+	struct FGameplayTag BlingLootItemTag; // 0x4a4 (0x4)
+	float LastAcquiredEnemyMsgTime; // 0x4a8 (0x4)
+	float MinTimeAllowedBetweenAcquiredEnemyMessages; // 0x4ac (0x4)
+	struct FAthenaGameMessageData GameMsgIntro; // 0x4b0 (0x50)
+	struct FAthenaGameMessageData GameMsgInitialBlingIncoming; // 0x500 (0x50)
+	struct FAthenaGameMessageData GameMsgInitialExitCraftsIncoming; // 0x550 (0x50)
+	struct FAthenaGameMessageData GameMsgFinalExitCraftIncoming; // 0x5a0 (0x50)
+	struct FAthenaGameMessageData GameMsgHeistCompleted; // 0x5f0 (0x50)
+	struct FAthenaGameMessageData GameMsgHeistCompletedOneRemains; // 0x640 (0x50)
+	struct FAthenaGameMessageData GameMsgDiamondAcquiredByEnemy; // 0x690 (0x50)
+	struct FAthenaGameMessageData GameMsgDiamondAcquiredByAlly; // 0x6e0 (0x50)
+	struct FAthenaGameMessageData GameMsgDiamondAcquiredByAllyNoVans; // 0x730 (0x50)
+	struct FAthenaGameMessageData GameMsgDiamondAcquiredByLocalPlayer; // 0x780 (0x50)
+	struct FAthenaGameMessageData GameMsgDiamondAcquiredByLocalPlayerNoVans; // 0x7d0 (0x50)
+	struct FSlateBrush FriendlyCarrierBrush; // 0x820 (0xc0)
+	struct FVector2D FriendlyCarrierBrushScale; // 0x8e0 (0x10)
+	struct FSlateBrush CompassFriendlyCarrierBrush; // 0x8f0 (0xc0)
+	struct FSlateBrush EnemyCarrierBrush; // 0x9b0 (0xc0)
+	struct FVector2D EnemyCarrierBrushScale; // 0xa70 (0x10)
+	struct FSlateBrush CompassEnemyCarrierBrush; // 0xa80 (0xc0)
+	class UTexture2D* IconToShowInSquadBar; // 0xb40 (0x8)
+	unsigned char padding_b48[0x8]; // 0xb48 (0x8)
+
+	/* Functions */
+
+	// Function /Script/FortniteGame.FortAthenaMutator_Heist.SendPlayerAcquiredMessage (Underlying native function: SendPlayerAcquiredMessage 0x84d0cc0)
+	void SendPlayerAcquiredMessage(class AFortPlayerStateAthena*& CarryingPlayerState); // (Final | Native | Protected)
+
+	// Function /Script/FortniteGame.FortAthenaMutator_Heist.OnSpecialActorRemoved (Underlying native function: OnSpecialActorRemoved 0x84d0690)
+	void OnSpecialActorRemoved(struct FSpecialActorRepData& SpecialActorData); // (Final | Native | Protected | HasOutParms)
+
+	// Function /Script/FortniteGame.FortAthenaMutator_Heist.OnSpecialActorAdded (Underlying native function: OnSpecialActorAdded 0x84d05ec)
+	void OnSpecialActorAdded(struct FSpecialActorRepData& SpecialActorData); // (Final | Native | Protected | HasOutParms)
+
+	// Function /Script/FortniteGame.FortAthenaMutator_Heist.OnMutatorGenericIntegerUpdated (Underlying native function: OnMutatorGenericIntegerUpdated 0x76c12f0)
+	void OnMutatorGenericIntegerUpdated(int& GenericIntegerIndex, int& NewIntegerValue); // (Final | Native | Protected)
+
+	// Function /Script/FortniteGame.FortAthenaMutator_Heist.OnMutatorGameplayEvent (Underlying native function: OnMutatorGameplayEvent 0x84d0048)
+	void OnMutatorGameplayEvent(int& EventId, int& EventParam1, int& EventParam2, int& EventParam3); // (Final | Native | Protected)
+
+	// Function /Script/FortniteGame.FortAthenaMutator_Heist.OnGamePhaseStepChanged (Underlying native function: OnGamePhaseStepChanged 0x84cfc38)
+	void OnGamePhaseStepChanged(struct TScriptInterface<class IFortSafeZoneInterface>& SafeZoneInterface, enum EAthenaGamePhaseStep& GamePhaseStep); // (Final | Native | Protected | HasOutParms)
+
+	// Function /Script/FortniteGame.FortAthenaMutator_Heist.OnExitCraftSpawned (Underlying native function: OnExitCraftSpawned 0x84cf6e0)
+	void OnExitCraftSpawned(class AFortAthenaExitCraft*& ExitCraft, class AFortAthenaExitCraftSpawner*& ExitCraftSpawner); // (Final | Native | Protected)
+
+	// Function /Script/FortniteGame.FortAthenaMutator_Heist.OnExitCraftIsDestroying (Underlying native function: OnExitCraftIsDestroying 0x84cf660)
+	void OnExitCraftIsDestroying(class AFortAthenaExitCraft*& ExitCraft); // (Final | Native | Protected)
+};
+

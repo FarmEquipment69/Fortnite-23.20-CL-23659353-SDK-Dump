@@ -1,0 +1,38 @@
+// ScriptStruct /Script/FortniteGame.CreativeLoadedLinkData
+// Size: 0x2d0
+struct FCreativeLoadedLinkData
+{
+	struct FString CreatorName; // 0x0 (0x10)
+	struct FString SupportCode; // 0x10 (0x10)
+	struct FOnlineLinkId LinkId; // 0x20 (0x18)
+	struct FString QueryIslandCode; // 0x38 (0x10)
+	enum EMMSPrivacy Privacy; // 0x48 (0x1)
+	unsigned char unreflected_49[0x7]; // 0x49 (0x7) 
+	struct TArray<struct FLocalizedStringPair> LinkTitle; // 0x50 (0x10)
+	struct FText AltTitle; // 0x60 (0x18)
+	struct TArray<struct FLocalizedStringPair> LinkTagline; // 0x78 (0x10)
+	struct TArray<struct FString> DescriptionTags; // 0x88 (0x10)
+	struct TArray<struct FLocalizedStringPair> IslandIntroduction; // 0x98 (0x10)
+	struct FString ImageUrl; // 0xa8 (0x10)
+	struct FString IslandType; // 0xb8 (0x10)
+	struct FString QuestContextTag; // 0xc8 (0x10)
+	struct FString AccountId; // 0xd8 (0x10)
+	struct FCreativeIslandMatchmakingSettings MatchmakingSettings; // 0xe8 (0x50)
+	struct FFortMatchmakingPublicConfig MatchmakingV2Settings; // 0x138 (0x14)
+	unsigned char unreflected_14c[0x4]; // 0x14c (0x4) 
+	struct TArray<struct FString> PlaylistOptions; // 0x150 (0x10)
+	struct FString LinkType; // 0x160 (0x10)
+	struct TSet<struct FString> CreatorPermissions; // 0x170 (0x50)
+	struct TSet<struct FString> CreatorEntitlements; // 0x1c0 (0x50)
+	unsigned char unreflected_210[0x1]; // 0x210 (0x1) 
+	enum EOnlineLinkModerationStatus ModerationStatus; // 0x211 (0x1)
+	unsigned char unreflected_212[0x6]; // 0x212 (0x6) 
+	struct FDynamicXpAggregatedStats CreativeIslandXPStats; // 0x218 (0x78)
+	struct FPublicDynamicXpStats* PublicCreativeIslandXPStats; // 0x290 (0x8)
+	bool bActive; // 0x298 (0x1)
+	unsigned char unreflected_299[0x7]; // 0x299 (0x7) 
+	struct FString LinkMode; // 0x2a0 (0x10)
+	struct FString PlaytestGroupId; // 0x2b0 (0x10)
+	unsigned char padding_2c0[0x10]; // 0x2c0 (0x10)
+};
+

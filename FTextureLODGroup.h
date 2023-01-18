@@ -1,0 +1,35 @@
+// ScriptStruct /Script/Engine.TextureLODGroup
+// Size: 0x5c
+struct FTextureLODGroup
+{
+	struct TEnumAsByte<TextureGroup> Group; // 0x0 (0x1)
+	unsigned char unreflected_1[0x7]; // 0x1 (0x7) 
+	int LODBias; // 0x8 (0x4)
+	int LODBiasSmaller; // 0xc (0x4)
+	int LODBiasSmallest; // 0x10 (0x4)
+	unsigned char unreflected_14[0x4]; // 0x14 (0x4) 
+	int NumStreamedMips; // 0x18 (0x4)
+	struct TEnumAsByte<TextureMipGenSettings> MipGenSettings; // 0x1c (0x1)
+	unsigned char unreflected_1d[0x3]; // 0x1d (0x3) 
+	int MinLODSize; // 0x20 (0x4)
+	int MaxLODSize; // 0x24 (0x4)
+	int MaxLODSizeSmaller; // 0x28 (0x4)
+	int MaxLODSizeSmallest; // 0x2c (0x4)
+	int MaxLODSizeVT; // 0x30 (0x4)
+	int OptionalLODBias; // 0x34 (0x4)
+	int OptionalMaxLODSize; // 0x38 (0x4)
+	struct FName MinMagFilter; // 0x3c (0x4)
+	struct FName MipFilter; // 0x40 (0x4)
+	enum ETextureMipLoadOptions MipLoadOptions; // 0x44 (0x1)
+	bool HighPriorityLoad; // 0x45 (0x1)
+	bool DuplicateNonOptionalMips; // 0x46 (0x1)
+	unsigned char unreflected_47[0x1]; // 0x47 (0x1) 
+	float Downscale; // 0x48 (0x4)
+	enum ETextureDownscaleOptions DownscaleOptions; // 0x4c (0x1)
+	unsigned char unreflected_4d[0x3]; // 0x4d (0x3) 
+	int VirtualTextureTileCountBias; // 0x50 (0x4)
+	int VirtualTextureTileSizeBias; // 0x54 (0x4)
+	struct TEnumAsByte<ETextureLossyCompressionAmount> LossyCompressionAmount; // 0x58 (0x1)
+	unsigned char padding_59[0x3]; // 0x59 (0x3)
+};
+

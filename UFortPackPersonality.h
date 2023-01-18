@@ -1,0 +1,35 @@
+// Class /Script/FortniteGame.FortPackPersonality
+// Size: 0x118
+class UFortPackPersonality : public UDataAsset
+{
+	class USoundCue* TickleVOSound; // 0x30 (0x8)
+	class USoundCue* TickleSFXSound; // 0x38 (0x8)
+	class USoundCue* XRayVOSound; // 0x40 (0x8)
+	class USoundCue* HoverVOSound; // 0x48 (0x8)
+	class USoundCue* BuySFXSound; // 0x50 (0x8)
+	class USoundCue* OpenGenericVOSound; // 0x58 (0x8)
+	class USoundCue* OpenGenericSFXSound; // 0x60 (0x8)
+	class USoundCue* UpgradeSilverVOSound; // 0x68 (0x8)
+	class USoundCue* UpgradeSilverSFXSound; // 0x70 (0x8)
+	class USoundCue* OpenSilverVOSound; // 0x78 (0x8)
+	class USoundCue* OpenSilverSFXSound; // 0x80 (0x8)
+	class USoundCue* UpgradeGoldVOSound; // 0x88 (0x8)
+	class USoundCue* UpgradeGoldSFXSound; // 0x90 (0x8)
+	class USoundCue* OpenGoldVOSound; // 0x98 (0x8)
+	class USoundCue* OpenGoldSFXSound; // 0xa0 (0x8)
+	class USoundCue* GreetGenericVOSound; // 0xa8 (0x8)
+	class USoundCue* GreetAxeVOSound; // 0xb0 (0x8)
+	class USoundCue* GreetBaseballBatVOSound; // 0xb8 (0x8)
+	class USoundCue* GreetGardenHoeVOSound; // 0xc0 (0x8)
+	class USoundCue* GreetGardenRakeVOSound; // 0xc8 (0x8)
+	class USoundCue* GreetHockeyStickVOSound; // 0xd0 (0x8)
+	class USoundCue* GreetPickAxeVOSound; // 0xd8 (0x8)
+	class USoundCue* GreetPitchforkVOSound; // 0xe0 (0x8)
+	class USoundCue* GreetScytheVOSound; // 0xe8 (0x8)
+	class USoundCue* GreetSledgehammerVOSound; // 0xf0 (0x8)
+	class USoundCue* GreetSwordVOSound; // 0xf8 (0x8)
+	class USoundCue* PreHitVOSound; // 0x100 (0x8)
+	class USoundCue* DropMusicSound; // 0x108 (0x8)
+	class USoundCue* OpenMusicSound; // 0x110 (0x8)
+};
+

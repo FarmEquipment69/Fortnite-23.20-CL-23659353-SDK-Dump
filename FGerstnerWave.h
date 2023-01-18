@@ -1,0 +1,16 @@
+// ScriptStruct /Script/Water.GerstnerWave
+// Size: 0x48
+struct FGerstnerWave
+{
+	float WaveLength; // 0x0 (0x4)
+	float Amplitude; // 0x4 (0x4)
+	float Steepness; // 0x8 (0x4)
+	unsigned char unreflected_c[0x4]; // 0xc (0x4) 
+	struct FVector Direction; // 0x10 (0x18)
+	struct FVector2D WaveVector; // 0x28 (0x10)
+	float WaveSpeed; // 0x38 (0x4)
+	float WKA; // 0x3c (0x4)
+	float Q; // 0x40 (0x4)
+	float PhaseOffset; // 0x44 (0x4)
+};
+

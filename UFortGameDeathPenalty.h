@@ -1,0 +1,35 @@
+// Class /Script/FortniteGame.FortGameDeathPenalty
+// Size: 0xb0
+class UFortGameDeathPenalty : public UDataAsset
+{
+	float PercentResourcesToDrop; // 0x30 (0x4)
+	float PercentWeaponsToDrop; // 0x34 (0x4)
+	float PercentCraftingIngredientsToDrop; // 0x38 (0x4)
+	float PercentConsumablesToDrop; // 0x3c (0x4)
+	float PercentAmmoToDrop; // 0x40 (0x4)
+	float PercentResourcesToRecover; // 0x44 (0x4)
+	float PercentWeaponsToRecover; // 0x48 (0x4)
+	float PercentCraftingIngredientsToRecover; // 0x4c (0x4)
+	float PercentConsumablesToRecover; // 0x50 (0x4)
+	float PercentAmmoToRecover; // 0x54 (0x4)
+	int MinResourcesToKeep; // 0x58 (0x4)
+	int MinWeaponsToKeep; // 0x5c (0x4)
+	int MinCraftingIngredientsToKeep; // 0x60 (0x4)
+	int MinConsumablesToKeep; // 0x64 (0x4)
+	int MinAmmoToKeep; // 0x68 (0x4)
+	unsigned char unreflected_6c[0x4]; // 0x6c (0x4) 
+	struct FCurveTableRowHandle RespawnDelays; // 0x70 (0x10)
+	class UCurveFloat* RespawnDelayOverTime; // 0x80 (0x8)
+	float MaxRespawnDelay; // 0x88 (0x4)
+	float MinSelfResurrectDelay; // 0x8c (0x4)
+	bool bUseRegenHealthOnRespawn; // 0x90 (0x1)
+	unsigned char unreflected_91[0x3]; // 0x91 (0x3) 
+	float PercentHealthOnRespawn; // 0x94 (0x4)
+	float PercentShieldOnRespawn; // 0x98 (0x4)
+	float PercentStaminaOnRespawn; // 0x9c (0x4)
+	float RespawnDurabilityPenalty; // 0xa0 (0x4)
+	float SelfResurrectDurabilityPenalty; // 0xa4 (0x4)
+	float TeammateResurrectDurabilityPenalty; // 0xa8 (0x4)
+	unsigned char padding_ac[0x4]; // 0xac (0x4)
+};
+

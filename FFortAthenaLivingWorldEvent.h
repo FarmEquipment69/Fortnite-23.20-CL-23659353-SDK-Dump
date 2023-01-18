@@ -1,0 +1,38 @@
+// ScriptStruct /Script/LagerRuntime.FortAthenaLivingWorldEvent
+// Size: 0x160
+struct FFortAthenaLivingWorldEvent : FTableRowBase
+{
+	struct TWeakObjectPtr<class UFortAthenaLivingWorldEventData> EventData; // 0x8 (0x28)
+	struct TArray<struct FFortAthenaLivingWorldEventDataEntry> EventDatas; // 0x30 (0x10)
+	struct FScalableFloat IsEnabled; // 0x40 (0x28)
+	struct TArray<float> MaxCount; // 0x68 (0x10)
+	struct TArray<float> MaxSpawnedCount; // 0x78 (0x10)
+	struct TArray<float> EventInstanceMaxCount; // 0x88 (0x10)
+	struct TArray<float> EventInstanceMaxSpawnedCount; // 0x98 (0x10)
+	float Weight; // 0xa8 (0x4)
+	unsigned char unreflected_ac[0x4]; // 0xac (0x4) 
+	struct TArray<float> MinRespawnTime; // 0xb0 (0x10)
+	struct TArray<float> MaxRespawnTime; // 0xc0 (0x10)
+	bool bOnlyInSafeZone; // 0xd0 (0x1)
+	bool bOnlyInNextSafeZone; // 0xd1 (0x1)
+	bool bOnlyInNextSafeZoneIfStormShrinking; // 0xd2 (0x1)
+	enum EAthenaGamePhaseStep ActivationGamePhaseStep; // 0xd3 (0x1)
+	int ActivationSafeZoneIndex; // 0xd4 (0x4)
+	float ActivationMinDelay; // 0xd8 (0x4)
+	float ActivationMaxDelay; // 0xdc (0x4)
+	float DeactivationMinDelay; // 0xe0 (0x4)
+	float DeactivationMaxDelay; // 0xe4 (0x4)
+	struct TArray<struct FFortAthenaLivingWorldEventTagDensityCondition> TagDensityConditions; // 0xe8 (0x10)
+	bool bCheckForActorDensity; // 0xf8 (0x1)
+	unsigned char unreflected_f9[0x3]; // 0xf9 (0x3) 
+	float MaxActorDensityOverride; // 0xfc (0x4)
+	float MinDistanceToPlayer; // 0x100 (0x4)
+	float MaxDistanceToPlayer; // 0x104 (0x4)
+	bool bCanSpawnWithoutMatchingPlayerDistance; // 0x108 (0x1)
+	unsigned char unreflected_109[0x3]; // 0x109 (0x3) 
+	float RandomActivationChance; // 0x10c (0x4)
+	struct FFortAthenaLivingWorldEventDespawnCondition DespawnCondition; // 0x110 (0x18)
+	struct FGameplayTagContainer RequirePlaylistTags; // 0x128 (0x20)
+	struct FLivingWorldCalendarEventConditions CalendarEventConditions; // 0x148 (0x18)
+};
+

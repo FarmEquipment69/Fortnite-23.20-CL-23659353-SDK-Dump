@@ -1,0 +1,38 @@
+// ScriptStruct /Script/FortniteGame.SavedSpectatorCameraState
+// Size: 0x1d0
+struct FSavedSpectatorCameraState
+{
+	bool bDataIsValid; // 0x0 (0x1)
+	enum ESpectatorCameraType CameraType; // 0x1 (0x1)
+	unsigned char unreflected_2[0x6]; // 0x2 (0x6) 
+	struct FUniqueNetIdRepl FollowedPlayerUniqueId; // 0x8 (0x30)
+	struct FCameraFilmbackSettings FilmbackSettings; // 0x38 (0xc)
+	struct FCameraLensSettings LensSettings; // 0x44 (0x1c)
+	struct FCameraFocusSettings FocusSettings; // 0x60 (0x60)
+	float CurrentFocalLength; // 0xc0 (0x4)
+	float CurrentAperture; // 0xc4 (0x4)
+	bool bAutoFocus; // 0xc8 (0x1)
+	unsigned char unreflected_c9[0x3]; // 0xc9 (0x3) 
+	float CurrentFocusDistance; // 0xcc (0x4)
+	bool bAutoExposure; // 0xd0 (0x1)
+	unsigned char unreflected_d1[0x3]; // 0xd1 (0x3) 
+	float ManualExposureBias; // 0xd4 (0x4)
+	unsigned char unreflected_d8[0x8]; // 0xd8 (0x8) 
+	struct FTransform Transform; // 0xe0 (0x60)
+	struct FRotator ControlRotation; // 0x140 (0x18)
+	float ThirdPersonNormalizedDistance; // 0x158 (0x4)
+	enum EThirdPersonAutoFollowMode ThirdPersonAutoFollowMode; // 0x15c (0x1)
+	unsigned char unreflected_15d[0x3]; // 0x15d (0x3) 
+	float DroneSpeedIndex; // 0x160 (0x4)
+	float ReplayPlaybackSpeed; // 0x164 (0x4)
+	bool bNamePlatesEnabled; // 0x168 (0x1)
+	bool bDisplaySessionRank; // 0x169 (0x1)
+	bool bPlayerOutlinesEnabled; // 0x16a (0x1)
+	bool bThirdPersonCamCollide; // 0x16b (0x1)
+	bool bFollowDroneDoTest; // 0x16c (0x1)
+	bool bBattleMapIsOnTimelineMode; // 0x16d (0x1)
+	unsigned char unreflected_16e[0x2]; // 0x16e (0x2) 
+	struct FNamePlateFilter NamePlatesFilter; // 0x170 (0x58)
+	unsigned char padding_1c8[0x8]; // 0x1c8 (0x8)
+};
+

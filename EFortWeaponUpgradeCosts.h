@@ -1,0 +1,33 @@
+// Enum /Script/FortniteGame.EFortWeaponUpgradeCosts
+enum class EFortWeaponUpgradeCosts : uint8_t
+{
+  NotSet = 0,
+  WoodUncommon = 1,
+  WoodRare = 2,
+  WoodVeryRare = 3,
+  WoodSuperRare = 4,
+  MetalUncommon = 5,
+  MetalRare = 6,
+  MetalVeryRare = 7,
+  MetalSuperRare = 8,
+  BrickUncommon = 9,
+  BrickRare = 10,
+  BrickVeryRare = 11,
+  BrickSuperRare = 12,
+  HorizontalWoodCommon = 13,
+  HorizontalWoodUncommon = 14,
+  HorizontalWoodRare = 15,
+  HorizontalWoodVeryRare = 16,
+  HorizontalWoodSuperRare = 17,
+  HorizontalMetalCommon = 18,
+  HorizontalMetalUncommon = 19,
+  HorizontalMetalRare = 20,
+  HorizontalMetalVeryRare = 21,
+  HorizontalMetalSuperRare = 22,
+  HorizontalBrickCommon = 23,
+  HorizontalBrickUncommon = 24,
+  HorizontalBrickRare = 25,
+  HorizontalBrickVeryRare = 26,
+  HorizontalBrickSuperRare = 27,
+  EFortWeaponUpgradeCosts_MAX = 28
+};

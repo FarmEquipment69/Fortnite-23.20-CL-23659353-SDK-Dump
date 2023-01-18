@@ -1,0 +1,38 @@
+// ScriptStruct /Script/ControlRig.RigControl
+// Size: 0x500
+struct FRigControl : FRigElement
+{
+	enum ERigControlType ControlType; // 0x10 (0x1)
+	unsigned char unreflected_11[0x3]; // 0x11 (0x3) 
+	struct FName DisplayName; // 0x14 (0x4)
+	struct FName ParentName; // 0x18 (0x4)
+	int ParentIndex; // 0x1c (0x4)
+	struct FName SpaceName; // 0x20 (0x4)
+	int SpaceIndex; // 0x24 (0x4)
+	unsigned char unreflected_28[0x8]; // 0x28 (0x8) 
+	struct FTransform OffsetTransform; // 0x30 (0x60)
+	struct FRigControlValue InitialValue; // 0x90 (0xf0)
+	struct FRigControlValue Value; // 0x180 (0xf0)
+	enum ERigControlAxis PrimaryAxis; // 0x270 (0x1)
+	bool bIsCurve; // 0x271 (0x1)
+	bool bAnimatable; // 0x272 (0x1)
+	bool bLimitTranslation; // 0x273 (0x1)
+	bool bLimitRotation; // 0x274 (0x1)
+	bool bLimitScale; // 0x275 (0x1)
+	bool bDrawLimits; // 0x276 (0x1)
+	unsigned char unreflected_277[0x9]; // 0x277 (0x9) 
+	struct FRigControlValue MinimumValue; // 0x280 (0xf0)
+	struct FRigControlValue MaximumValue; // 0x370 (0xf0)
+	bool bGizmoEnabled; // 0x460 (0x1)
+	bool bGizmoVisible; // 0x461 (0x1)
+	unsigned char unreflected_462[0x2]; // 0x462 (0x2) 
+	struct FName GizmoName; // 0x464 (0x4)
+	unsigned char unreflected_468[0x8]; // 0x468 (0x8) 
+	struct FTransform GizmoTransform; // 0x470 (0x60)
+	struct FLinearColor GizmoColor; // 0x4d0 (0x10)
+	struct TArray<int> Dependents; // 0x4e0 (0x10)
+	bool bIsTransientControl; // 0x4f0 (0x1)
+	unsigned char unreflected_4f1[0x7]; // 0x4f1 (0x7) 
+	class UEnum* ControlEnum; // 0x4f8 (0x8)
+};
+

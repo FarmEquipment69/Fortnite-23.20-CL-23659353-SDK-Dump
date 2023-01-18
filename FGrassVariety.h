@@ -1,0 +1,36 @@
+// ScriptStruct /Script/Landscape.GrassVariety
+// Size: 0x1a0
+struct FGrassVariety
+{
+	class UStaticMesh* GrassMesh; // 0x0 (0x8)
+	struct TArray<class UMaterialInterface*> OverrideMaterials; // 0x8 (0x10)
+	struct FPerPlatformFloat GrassDensity; // 0x18 (0x4)
+	unsigned char unreflected_1c[0x4]; // 0x1c (0x4) 
+	struct FPerQualityLevelFloat GrassDensityQuality; // 0x20 (0x68)
+	bool bUseGrid; // 0x88 (0x1)
+	unsigned char unreflected_89[0x3]; // 0x89 (0x3) 
+	float PlacementJitter; // 0x8c (0x4)
+	struct FPerPlatformInt StartCullDistance; // 0x90 (0x4)
+	unsigned char unreflected_94[0x4]; // 0x94 (0x4) 
+	struct FPerQualityLevelInt StartCullDistanceQuality; // 0x98 (0x68)
+	struct FPerPlatformInt EndCullDistance; // 0x100 (0x4)
+	unsigned char unreflected_104[0x4]; // 0x104 (0x4) 
+	struct FPerQualityLevelInt EndCullDistanceQuality; // 0x108 (0x68)
+	int MinLOD; // 0x170 (0x4)
+	enum EGrassScaling Scaling; // 0x174 (0x1)
+	unsigned char unreflected_175[0x3]; // 0x175 (0x3) 
+	struct FFloatInterval* ScaleX; // 0x178 (0x8)
+	struct FFloatInterval* ScaleY; // 0x180 (0x8)
+	struct FFloatInterval* ScaleZ; // 0x188 (0x8)
+	bool RandomRotation; // 0x190 (0x1)
+	bool AlignToSurface; // 0x191 (0x1)
+	bool bUseLandscapeLightmap; // 0x192 (0x1)
+	struct FLightingChannels LightingChannels; // 0x193 (0x1)
+	bool bReceivesDecals; // 0x194 (0x1)
+	bool bCastDynamicShadow; // 0x195 (0x1)
+	bool bCastContactShadow; // 0x196 (0x1)
+	bool bKeepInstanceBufferCPUCopy; // 0x197 (0x1)
+	uint32_t InstanceWorldPositionOffsetDisableDistance; // 0x198 (0x4)
+	unsigned char padding_19c[0x4]; // 0x19c (0x4)
+};
+

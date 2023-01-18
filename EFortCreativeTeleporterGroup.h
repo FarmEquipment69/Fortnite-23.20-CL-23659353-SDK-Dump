@@ -1,0 +1,32 @@
+// Enum /Script/FortniteGame.EFortCreativeTeleporterGroup
+enum class EFortCreativeTeleporterGroup : uint8_t
+{
+  Group_A = 0,
+  Group_B = 1,
+  Group_C = 2,
+  Group_D = 3,
+  Group_E = 4,
+  Group_F = 5,
+  Group_G = 6,
+  Group_H = 7,
+  Group_I = 8,
+  Group_J = 9,
+  Group_K = 10,
+  Group_L = 11,
+  Group_M = 12,
+  Group_N = 13,
+  Group_O = 14,
+  Group_P = 15,
+  Group_Q = 16,
+  Group_R = 17,
+  Group_S = 18,
+  Group_T = 19,
+  Group_U = 20,
+  Group_V = 21,
+  Group_W = 22,
+  Group_X = 23,
+  Group_Y = 24,
+  Group_Z = 25,
+  Group_None = 26,
+  Group_MAX = 27
+};

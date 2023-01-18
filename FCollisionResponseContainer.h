@@ -1,0 +1,38 @@
+// ScriptStruct /Script/Engine.CollisionResponseContainer
+// Size: 0x20
+struct FCollisionResponseContainer
+{
+	struct TEnumAsByte<ECollisionResponse> WorldStatic; // 0x0 (0x1)
+	struct TEnumAsByte<ECollisionResponse> WorldDynamic; // 0x1 (0x1)
+	struct TEnumAsByte<ECollisionResponse> Pawn; // 0x2 (0x1)
+	struct TEnumAsByte<ECollisionResponse> Visibility; // 0x3 (0x1)
+	struct TEnumAsByte<ECollisionResponse> Camera; // 0x4 (0x1)
+	struct TEnumAsByte<ECollisionResponse> PhysicsBody; // 0x5 (0x1)
+	struct TEnumAsByte<ECollisionResponse> Vehicle; // 0x6 (0x1)
+	struct TEnumAsByte<ECollisionResponse> Destructible; // 0x7 (0x1)
+	struct TEnumAsByte<ECollisionResponse> EngineTraceChannel1; // 0x8 (0x1)
+	struct TEnumAsByte<ECollisionResponse> EngineTraceChannel2; // 0x9 (0x1)
+	struct TEnumAsByte<ECollisionResponse> EngineTraceChannel3; // 0xa (0x1)
+	struct TEnumAsByte<ECollisionResponse> EngineTraceChannel4; // 0xb (0x1)
+	struct TEnumAsByte<ECollisionResponse> EngineTraceChannel5; // 0xc (0x1)
+	struct TEnumAsByte<ECollisionResponse> EngineTraceChannel6; // 0xd (0x1)
+	struct TEnumAsByte<ECollisionResponse> GameTraceChannel1; // 0xe (0x1)
+	struct TEnumAsByte<ECollisionResponse> GameTraceChannel2; // 0xf (0x1)
+	struct TEnumAsByte<ECollisionResponse> GameTraceChannel3; // 0x10 (0x1)
+	struct TEnumAsByte<ECollisionResponse> GameTraceChannel4; // 0x11 (0x1)
+	struct TEnumAsByte<ECollisionResponse> GameTraceChannel5; // 0x12 (0x1)
+	struct TEnumAsByte<ECollisionResponse> GameTraceChannel6; // 0x13 (0x1)
+	struct TEnumAsByte<ECollisionResponse> GameTraceChannel7; // 0x14 (0x1)
+	struct TEnumAsByte<ECollisionResponse> GameTraceChannel8; // 0x15 (0x1)
+	struct TEnumAsByte<ECollisionResponse> GameTraceChannel9; // 0x16 (0x1)
+	struct TEnumAsByte<ECollisionResponse> GameTraceChannel10; // 0x17 (0x1)
+	struct TEnumAsByte<ECollisionResponse> GameTraceChannel11; // 0x18 (0x1)
+	struct TEnumAsByte<ECollisionResponse> GameTraceChannel12; // 0x19 (0x1)
+	struct TEnumAsByte<ECollisionResponse> GameTraceChannel13; // 0x1a (0x1)
+	struct TEnumAsByte<ECollisionResponse> GameTraceChannel14; // 0x1b (0x1)
+	struct TEnumAsByte<ECollisionResponse> GameTraceChannel15; // 0x1c (0x1)
+	struct TEnumAsByte<ECollisionResponse> GameTraceChannel16; // 0x1d (0x1)
+	struct TEnumAsByte<ECollisionResponse> GameTraceChannel17; // 0x1e (0x1)
+	struct TEnumAsByte<ECollisionResponse> GameTraceChannel18; // 0x1f (0x1)
+};
+

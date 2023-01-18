@@ -1,0 +1,35 @@
+// ScriptStruct /Script/FortniteGame.TurretCosmeticData
+// Size: 0xb8
+struct FTurretCosmeticData
+{
+	class UParticleSystemComponent* OverheatSmoke; // 0x0 (0x8)
+	class UParticleSystemComponent* OverheatScreenL; // 0x8 (0x8)
+	class UParticleSystemComponent* OverheatScreenR; // 0x10 (0x8)
+	struct TArray<class UParticleSystemComponent*> OverheatParticleSystems; // 0x18 (0x10)
+	class UAudioComponent* OverheatAudio; // 0x28 (0x8)
+	class UAudioComponent* OnOverheatAudio; // 0x30 (0x8)
+	class UCurveFloat* OverheatAudioCurve; // 0x38 (0x8)
+	class UFortLayeredAudioComponent* ServoAudio; // 0x40 (0x8)
+	class UFortVehicleAimingWeaponComp* AimingWeaponComponent; // 0x48 (0x8)
+	struct FName HorizontalAimDeltaParamName; // 0x50 (0x4)
+	struct FName VerticalAimDeltaParamName; // 0x54 (0x4)
+	struct FName OverheatParamName; // 0x58 (0x4)
+	float OverheatParamOnOverheatValue; // 0x5c (0x4)
+	struct FName OverheatColorParamName; // 0x60 (0x4)
+	struct FName OverheatAlphaParamName; // 0x64 (0x4)
+	struct FName RedBlinkParamName; // 0x68 (0x4)
+	float RotatationAudioRangeInA; // 0x6c (0x4)
+	float RotatationAudioRangeInB; // 0x70 (0x4)
+	float RotatationAudioRangeOutA; // 0x74 (0x4)
+	float RotatationAudioRangeOutB; // 0x78 (0x4)
+	float HotThreshold; // 0x7c (0x4)
+	float WarmThreshold; // 0x80 (0x4)
+	float AudioFadeinDuration; // 0x84 (0x4)
+	float AudioFadeoutDuration; // 0x88 (0x4)
+	struct FLinearColor WarmColor; // 0x8c (0x10)
+	struct FLinearColor HotColor; // 0x9c (0x10)
+	float OverheatColorExponent; // 0xac (0x4)
+	float ReplicateOverheatMax; // 0xb0 (0x4)
+	unsigned char padding_b4[0x4]; // 0xb4 (0x4)
+};
+

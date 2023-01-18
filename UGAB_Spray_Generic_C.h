@@ -1,0 +1,26 @@
+// BlueprintGeneratedClass /Game/Abilities/Sprays/GAB_Spray_Generic.GAB_Spray_Generic_C
+// Size: 0xbe8
+class UGAB_Spray_Generic_C : public UGAB_Emote_Generic_C
+{
+	struct FPointerToUberGraphFrame* UberGraphFrame; // 0xb78 (0x8)
+	double DecalSize; // 0xb80 (0x8)
+	class UAthenaSprayItemDefinition* MySpray; // 0xb88 (0x8)
+	double DecalTraceDistance; // 0xb90 (0x8)
+	struct TWeakObjectPtr<class UAnimMontage> DefaultSprayMontageM; // 0xb98 (0x28)
+	struct TWeakObjectPtr<class UAnimMontage> DefaultSprayMontageF; // 0xbc0 (0x28)
+
+	/* Functions */
+
+	// Function /Game/Abilities/Sprays/GAB_Spray_Generic.GAB_Spray_Generic_C.GetMontageToPlay (Has no native function)
+	struct TWeakObjectPtr<class UAnimMontage> GetMontageToPlay(class UFortMontageItemDefinitionBase*& EmoteAsset, struct TEnumAsByte<EFortCustomBodyType>& BodyType, struct TEnumAsByte<EFortCustomGender>& Gender); // (Public | HasOutParms | HasDefaults | BlueprintCallable | BlueprintEvent)
+
+	// Function /Game/Abilities/Sprays/GAB_Spray_Generic.GAB_Spray_Generic_C.TargetLineTrace (Has no native function)
+	void TargetLineTrace(class AFortPawn*& ActivatingPawn, bool& HitSomething, struct FVector& Location, struct FVector& Normal, struct FRotator& CallFuncGetBaseAimRotationReturnValue, struct TArray<class AActor*>& K2NodeMakeArrayArray, struct FVector& CallFuncGetForwardVectorReturnValue, class USceneComponent*& CallFuncK2GetRootComponentReturnValue, struct FVector& CallFuncMultiplyVectorFloatReturnValue, class UCapsuleComponent*& K2NodeDynamicCastAsCapsuleCollision, bool& K2NodeDynamicCastbSuccess, struct FVector& CallFuncK2GetActorLocationReturnValue, double& CallFuncBreakVectorX, double& CallFuncBreakVectorY, double& CallFuncBreakVectorZ, double& CallFuncAddDoubleDoubleReturnValue, struct FVector& CallFuncMakeVectorReturnValue, struct FVector& CallFuncAddVectorVectorReturnValue, struct FHitResult& CallFuncLineTraceSingleOutHit, bool& CallFuncLineTraceSingleReturnValue, bool& CallFuncBreakHitResultbBlockingHit, bool& CallFuncBreakHitResultbInitialOverlap, float& CallFuncBreakHitResultTime, float& CallFuncBreakHitResultDistance, struct FVector& CallFuncBreakHitResultLocation, struct FVector& CallFuncBreakHitResultImpactPoint, struct FVector& CallFuncBreakHitResultNormal, struct FVector& CallFuncBreakHitResultImpactNormal, class UPhysicalMaterial*& CallFuncBreakHitResultPhysMat, class AActor*& CallFuncBreakHitResultHitActor, class UPrimitiveComponent*& CallFuncBreakHitResultHitComponent, struct FName& CallFuncBreakHitResultHitBoneName, struct FName& CallFuncBreakHitResultBoneName, int& CallFuncBreakHitResultHitItem, int& CallFuncBreakHitResultElementIndex, int& CallFuncBreakHitResultFaceIndex, struct FVector& CallFuncBreakHitResultTraceStart, struct FVector& CallFuncBreakHitResultTraceEnd, class ABuildingActor*& K2NodeDynamicCastAsBuildingActor, bool& K2NodeDynamicCastbSuccess1, class ABuildingGameplayActor*& K2NodeDynamicCastAsBuildingGameplayActor, bool& K2NodeDynamicCastbSuccess2, bool& CallFuncIsValidReturnValue, struct TScriptInterface<class IGameplayTagAssetInterface>& CallFuncHasMatchingGameplayTagselfCastInput, bool& CallFuncHasMatchingGameplayTagReturnValue, bool& CallFuncNotPreBoolReturnValue, bool& CallFuncAcceptsEmoteSpraysReturnValue, struct TScriptInterface<class IGameplayTagAssetInterface>& CallFuncHasMatchingGameplayTagselfCastInput1, bool& CallFuncHasMatchingGameplayTagReturnValue1, bool& CallFuncBooleanANDReturnValue, bool& CallFuncNotPreBoolReturnValue1, bool& CallFuncBooleanANDReturnValue1, double& CallFuncAddDoubleDoubleBImplicitCast); // (Public | HasOutParms | HasDefaults | BlueprintCallable | BlueprintEvent)
+
+	// Function /Game/Abilities/Sprays/GAB_Spray_Generic.GAB_Spray_Generic_C.OnMontageStartedPlaying (Has no native function)
+	void OnMontageStartedPlaying(); // (BlueprintCallable | BlueprintEvent)
+
+	// Function /Game/Abilities/Sprays/GAB_Spray_Generic.GAB_Spray_Generic_C.ExecuteUbergraph_GAB_Spray_Generic (Has no native function)
+	void ExecuteUbergraphGABSprayGeneric(int& EntryPoint, class UObject*& CallFuncGetCurrentSourceObjectReturnValue, class UAthenaSprayItemDefinition*& K2NodeDynamicCastAsAthenaSprayItemDefinition, bool& K2NodeDynamicCastbSuccess, bool& CallFuncIsServerReturnValue, class AFortPawn*& CallFuncGetActivatingPawnReturnValue, class AFortPawn*& CallFuncGetActivatingPawnReturnValue1, bool& CallFuncIsValidReturnValue, struct FVector& CallFuncGetRightVectorReturnValue, struct FVector& CallFuncSubtractVectorVectorReturnValue, class AController*& CallFuncGetControllerReturnValue, bool& CallFuncTargetLineTraceHitSomething, struct FVector& CallFuncTargetLineTraceLocation, struct FVector& CallFuncTargetLineTraceNormal, class AFortPlayerController*& K2NodeDynamicCastAsFortPlayerController, bool& K2NodeDynamicCastbSuccess1, struct FVector& CallFuncCrossVectorVectorReturnValue, bool& CallFuncCanPlaceInstanceOfClassReturnValue, struct FRotator& CallFuncMakeRotationFromAxesReturnValue, bool& CallFuncHasPermissionToEditWorldReturnValue, struct FTransform& CallFuncMakeTransformReturnValue, bool& CallFuncBooleanANDReturnValue, class ABuildingActor*& CallFuncK2SpawnBuildingActorReturnValue, class ABP_SprayDecal_C*& K2NodeDynamicCastAsBPSprayDecal, bool& K2NodeDynamicCastbSuccess2); // (Final | 0x00008000 | HasDefaults)
+};
+

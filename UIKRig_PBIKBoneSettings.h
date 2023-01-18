@@ -1,0 +1,24 @@
+// Class /Script/IKRig.IKRig_PBIKBoneSettings
+// Size: 0x78
+class UIKRig_PBIKBoneSettings : public UObject
+{
+	struct FName bone; // 0x28 (0x4)
+	float RotationStiffness; // 0x2c (0x4)
+	float PositionStiffness; // 0x30 (0x4)
+	enum EPBIKLimitType X; // 0x34 (0x1)
+	unsigned char unreflected_35[0x3]; // 0x35 (0x3) 
+	float MinX; // 0x38 (0x4)
+	float MaxX; // 0x3c (0x4)
+	enum EPBIKLimitType Y; // 0x40 (0x1)
+	unsigned char unreflected_41[0x3]; // 0x41 (0x3) 
+	float MinY; // 0x44 (0x4)
+	float MaxY; // 0x48 (0x4)
+	enum EPBIKLimitType Z; // 0x4c (0x1)
+	unsigned char unreflected_4d[0x3]; // 0x4d (0x3) 
+	float MinZ; // 0x50 (0x4)
+	float MaxZ; // 0x54 (0x4)
+	bool bUsePreferredAngles; // 0x58 (0x1)
+	unsigned char unreflected_59[0x7]; // 0x59 (0x7) 
+	struct FVector PreferredAngles; // 0x60 (0x18)
+};
+
